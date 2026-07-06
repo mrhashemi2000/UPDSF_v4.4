@@ -1,3 +1,4 @@
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ## UPDSF v4.4: Unified Prebiotic DNA Selection Framework 
 
@@ -79,7 +80,7 @@ CORE FEATURES:
 To run the UPDSF v4.4 simulation on your local machine, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/mrhashemi2000/UPDSF_v4.4.py.git
+   git clone https://github.com/mrhashemi2000/UPDSF_v4.4.git
    cd UPDSF_v4.4
    
 2. Install the dependencies:
@@ -94,7 +95,7 @@ This project utilizes a recursive collaboration between human reasoning and AI-a
 
 ## Citation
 If you use this framework in your research, please cite it as:
-> Reza Hashemi. (2026). mrhashemi2000/UPDSF_v4.4.py: Initial release. Zenodo. https://doi.org/10.5281/zenodo.21202864
+> Reza Hashemi. (2026). mrhashemi2000/UPDSF_v4.4: Initial release. Zenodo. https://doi.org/10.5281/zenodo.21224889
 
 ## REFERENCES:
 
