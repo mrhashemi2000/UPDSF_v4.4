@@ -40,7 +40,7 @@ REFERENCES:
 
 AUTHOR: Seyed Mohammad Reza Hashemi (Reza Hashemi) Intelligence-Augmented (IA)
 VERSION: 4.4 with Strictly Empirical Parameters + Lipid Membrane
-DOI: 10.5281/zenodo.20825578
+DOI: 10.5281/zenodo.21224889
 """
 
 import matplotlib
