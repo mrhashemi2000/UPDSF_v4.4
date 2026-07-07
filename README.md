@@ -91,7 +91,7 @@ To run the UPDSF v4.4 simulation on your local machine, follow these steps:
    python UPDSF_v4.4.py
 
 ## Methodology: IA-Augmented Discovery
-This project utilizes a recursive collaboration between human reasoning and AI-assisted modeling. The framework evolves through continuous feedback loops, allowing for rapid interdisciplinary discovery at the intersection of astrobiology, physical chemistry, and computational physics.
+This project utilizes a recursive collaboration between human reasoning and AI-assisted modeling. The framework evolves through continuous feedback loops, allowing for rapid interdisciplinary discovery at the intersection of astrobiology, physical chemistry, and computational physics.https://doi.org/10.5281/zenodo.18594133
 
 ## Citation
 If you use this framework in your research, please cite it as:
