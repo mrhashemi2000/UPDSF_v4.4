@@ -67,4 +67,4 @@ The results of UPDSF v4.4 confirm that the transition to a DNA-based genome was 
 Project Version: 4.4  
 Model: Matter World Hypothesis (MWH)  
 Simulation Duration: 10,000 Hours  
-Lead Researcher: Seyed Mohammadreza Hashemi
+Lead Researcher: Seyed Mohammad Reza Hashemi (Reza Hashemi)
