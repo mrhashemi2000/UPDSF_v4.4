@@ -4,7 +4,7 @@
 ## Biophysical Mechanisms of Thymine Selection in Prebiotic Environments
 
 ### 1. Objective
-The UPDSF v4.4 simulation aims to quantify the stability and dominance of Thymine (T) over Uracil (U) under varying hydrothermal conditions. This report analyzes the "Selection Window" that facilitates the transition from the RNA world to the DNA world, supporting the Material World Hypothesis (MWH).
+The UPDSF v4.4 simulation aims to quantify the stability and dominance of Thymine (T) over Uracil (U) under varying hydrothermal conditions. This report analyzes the "Selection Window" that facilitates the transition from the RNA world to the DNA world, supporting the Matter World Hypothesis (MWH).
 
 ### 2. Comparative Analysis of Simulation Scenarios
 The following table compares two critical environmental states: the Hydrothermal Optimal Point (Alkaline) and the Lipid-Acidic Reference.
@@ -38,5 +38,5 @@ The results of UPDSF v4.4 indicate that the transition to a DNA-based genome was
 ---
 Project Version: 4.4  
 Simulation Duration: 10,000 Hours / 417 Days  
-Model: Material World Hypothesis (MWH)
+Model: Matter World Hypothesis (MWH)
 ```
