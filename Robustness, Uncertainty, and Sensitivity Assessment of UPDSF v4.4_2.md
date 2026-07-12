@@ -120,14 +120,3 @@ The Monte Carlo validation demonstrates that:
 VERSION: 4.4 with Strictly Empirical Parameters + Lipid Membrane
 
 ORCID: 0009-0002-0645-5180
-
-###  Repository Structure
-
-- `/src`: Core UPDSF v4.4 Engine.
-- 
-- `/analysis`: Monte Carlo and Sensitivity scripts.
-- 
-- `/output_data_v44_mc`: JSON/CSV results of the 200 samples.
-- 
-- `/plots`: All high-resolution validation images.
-
