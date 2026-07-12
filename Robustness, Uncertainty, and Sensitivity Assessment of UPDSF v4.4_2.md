@@ -59,7 +59,6 @@ Interpretation
 We next quantified the influence of each environmental variable using regression and tornado analysis.
 
 > **Paste Figure 2 below**
-<img width="2888" height="2365" alt="correlation_matrix" src="https://github.com/user-attachments/assets/71abc3b6-0020-4807-9ebe-321e71d2fec5" />
 <img width="5385" height="3433" alt="tornado_plot" src="https://github.com/user-attachments/assets/05176d7a-3b5c-45b8-8b72-dd58464b36b5" />
 
 Interpretation
