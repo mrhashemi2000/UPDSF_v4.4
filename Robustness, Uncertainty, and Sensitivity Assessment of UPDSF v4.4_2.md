@@ -44,22 +44,10 @@ A stochastic Monte Carlo wrapper was added around the core simulation.
 
 # Results
 
-## 1. Statistical Convergence
 
-The first analysis evaluates whether the final Thymine enrichment converges toward a stable statistical distribution across all simulations.
+## 1. Sensitivity Analysis
 
-<img width="9140" height="7691" alt="sensitivity_2d_v44_lipid" src="https://github.com/user-attachments/assets/c6acd568-d274-4234-bce5-db1888dfd2ca" />
-
-Interpretation
-
-- Mean enrichment ≈ **2.46×**
-- Distribution is unimodal and approximately Gaussian.
-- Narrow 95% confidence interval demonstrates numerical stability.
-- In approximately **85%** of all sampled environments, Thymine enrichment exceeds **2×**.
-
-## 2. Sensitivity Analysis
-
-We next quantified the influence of each environmental variable using regression and tornado analysis.
+We quantified the influence of each environmental variable using regression and tornado analysis.
 
 
 <img width="5385" height="3433" alt="tornado_plot" src="https://github.com/user-attachments/assets/05176d7a-3b5c-45b8-8b72-dd58464b36b5" />
@@ -71,7 +59,7 @@ Interpretation
 - Lipid concentration provides secondary stabilization.
 - UV protection increases polymer survival but has weaker direct influence.
 
-## 3. Correlation Matrix
+## 2. Correlation Matrix
 
 A complete correlation matrix was computed to identify relationships between environmental variables and model outputs.
 
@@ -84,7 +72,7 @@ Interpretation
 - UV exposure negatively correlates with total DNA yield.
 - Thymine fraction, enrichment, and molecular half-life exhibit nearly perfect positive correlation, indicating a direct stability-selection relationship.
 
-## 4. Multi-Parameter Interaction
+## 3. Multi-Parameter Interaction
 
 The final analysis identifies the environmental region that maximizes Thymine selection.
 
