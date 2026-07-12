@@ -6,7 +6,7 @@
 
 This directory contains additional computational analyses performed to further evaluate the robustness of the UPDSF v4.4 stochastic kinetic model used in the manuscript:
 
-Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model
+### Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model
 
 These analyses were conducted as supplementary computational validation of the submitted UPDSF v4.4 model.
 
