@@ -17,7 +17,9 @@ The purpose of these analyses is solely to quantify the stability of the model p
 The expanded analyses address three important computational questions:
 
 How sensitive are the final predictions to uncertainty in model parameters?
+
 Which parameters exert the greatest influence on thymine selection?
+
 Are the conclusions reported in the manuscript statistically robust?
 
 ## Analysis 1
@@ -103,7 +105,7 @@ They are provided for transparency and reproducibility and do not alter the scie
 
 
 
-The distribution of the final thymine fraction remained unimodal and centered near the baseline prediction. The Monte Carlo mean was consistent with the deterministic simulation, indicating that the model is numerically stable under parameter uncertainty. No significant outliers or multimodal behavior were observed, supporting the robustness of the stochastic predictions.
+The distribution of the final thymine fraction remained unimodal and centered near the baseline prediction. The Monte Carlo mean was consistent with the deterministic simulation, indicating that the model is numerically stable under parameter uncertainty. No significant outliers or multimodal behavior were observed, supporting the robustness of the stochastic predictions.The baseline simulation falls well within the Monte Carlo distribution, indicating that the deterministic solution is representative of the broader parameter space explored during uncertainty analysis.
 
 
 
@@ -114,12 +116,12 @@ The distribution of the final thymine fraction remained unimodal and centered ne
 <img width="3568" height="2969" alt="tornado_plot_20260712_072756" src="https://github.com/user-attachments/assets/5095f4f3-1830-495c-aed8-9cf8e8e4f262" />
 
 
-The tornado plot identifies the dominant parameters controlling thymine enrichment. Replication fidelity and thymine activation energy produced the largest response, whereas initial nucleotide pools and UV resistance exerted comparatively smaller effects. The ranking demonstrates that the principal conclusions arise from physically meaningful kinetic processes rather than arbitrary parameter choices.
+The tornado plot identifies the dominant parameters controlling thymine enrichment. Replication fidelity and thymine activation energy produced the largest response, whereas initial nucleotide pools and UV resistance exerted comparatively smaller effects. The ranking demonstrates that the principal conclusions arise from physically meaningful kinetic processes rather than arbitrary parameter choices.The asymmetric responses observed for several parameters reflect the nonlinear nature of the underlying reaction kinetics rather than numerical instability
 
 
 
 ## Conclusions
 
-The expanded analyses demonstrate that the principal conclusions of UPDSF v4.4 remain stable under realistic parameter uncertainty. Monte Carlo uncertainty analysis confirms statistical robustness, while the tornado sensitivity analysis identifies the dominant kinetic mechanisms responsible for thymine selection. These supplementary analyses provide additional computational validation without modifying the underlying UPDSF v4.4 model or the conclusions reported in the submitted manuscript.
+The expanded analyses demonstrate that the principal conclusions of UPDSF v4.4 remain stable under realistic parameter uncertainty. Monte Carlo uncertainty analysis confirms statistical robustness, while the tornado sensitivity analysis identifies the dominant kinetic mechanisms responsible for thymine selection. These supplementary analyses provide additional computational validation without modifying the underlying UPDSF v4.4 model or the conclusions reported in the submitted manuscript.Collectively, these analyses demonstrate that the principal conclusions of UPDSF v4.4 are stable, reproducible, and robust over realistic ranges of parameter uncertainty. The observed preferential enrichment of thymine is therefore unlikely to result from arbitrary parameter choices or numerical artifacts.
 
 ## Note: These analyses were performed after the initial manuscript submission as supplementary computational validation. They do not modify the UPDSF v4.4 algorithm, reaction network, or the scientific conclusions presented in the manuscript.
