@@ -1,4 +1,5 @@
-<img width="9140" height="7691" alt="sensitivity_2d_v44_lipid" src="https://github.com/user-attachments/assets/213a4995-0a7a-4112-88ae-1ffcff30b714" /># Robustness, Uncertainty, and Sensitivity Assessment of UPDSF v4.4
+<img width="5385" height="3433" alt="tornado_plot" src="https://github.com/user-attachments/assets/7cfee0f3-4b8d-4857-af09-5766b2e8452d" />
+
 
 ## Overview
 
@@ -60,6 +61,8 @@ Interpretation
 We next quantified the influence of each environmental variable using regression and tornado analysis.
 
 > **Paste Figure 2 below**
+<img width="2888" height="2365" alt="correlation_matrix" src="https://github.com/user-attachments/assets/71abc3b6-0020-4807-9ebe-321e71d2fec5" />
+<img width="5385" height="3433" alt="tornado_plot" src="https://github.com/user-attachments/assets/05176d7a-3b5c-45b8-8b72-dd58464b36b5" />
 
 Interpretation
 
@@ -75,6 +78,8 @@ Interpretation
 A complete correlation matrix was computed to identify relationships between environmental variables and model outputs.
 
 > **Paste Figure 3 below**
+<img width="4118" height="3543" alt="uncertainty_bubbles" src="https://github.com/user-attachments/assets/cbf39900-0843-4ccd-8e71-a6733e5ad478" />
+<img width="2888" height="2365" alt="correlation_matrix" src="https://github.com/user-attachments/assets/0dc09ea8-27fe-41f4-9256-368f427603f7" />
 
 Interpretation
 
@@ -89,6 +94,7 @@ Interpretation
 The final analysis identifies the environmental region that maximizes Thymine selection.
 
 > **Paste Figure 4 below**
+<img width="4118" height="3543" alt="uncertainty_bubbles" src="https://github.com/user-attachments/assets/7e571b25-853c-4408-afdb-6f6e0bae8a96" />
 
 Interpretation
 
