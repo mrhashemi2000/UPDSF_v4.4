@@ -1,5 +1,3 @@
-<img width="5385" height="3433" alt="tornado_plot" src="https://github.com/user-attachments/assets/7cfee0f3-4b8d-4857-af09-5766b2e8452d" />
-
 
 ## Overview
 
