@@ -93,7 +93,7 @@ Interpretation
 
 The Monte Carlo validation demonstrates that:
 
-1. The numerical implementation is stable across all 200 simulations.
+1. No numerical instabilities or simulation failures were observed across the 200 Monte Carlo realizations.
 
 2. Thymine selection is primarily controlled by activation-energy differences and intrinsic molecular stability rather than arbitrary initial conditions.
 
