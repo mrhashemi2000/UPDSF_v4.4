@@ -26,7 +26,8 @@ The high total-order indices for hydrolysis-related parameters confirm that diff
 
 <img width="5352" height="2369" alt="parameter_correlations" src="https://github.com/user-attachments/assets/3f34958b-7066-40f3-aca3-ef2e024bc589" />
 
-## Figure 1 Analysis Pearson correlation coefficients between key model parameters and simulation outputs in UPDSF v4.4.
+## Figure 1 Analysis 
+Pearson correlation coefficients between key model parameters and simulation outputs in UPDSF v4.4.
 
 - **Left**: Correlation with Thymine enrichment
 - **Middle**: Correlation with final Thymine fraction  
@@ -34,23 +35,16 @@ The high total-order indices for hydrolysis-related parameters confirm that diff
 
 **Key Insight**: The uracil hydrolysis prefactor (`A_U`) and base catalysis factor show the strongest positive correlations with thymine selection. These results are consistent with the Sobol global sensitivity analysis and confirm that differential hydrolysis kinetics are the primary driver of thymine enrichment under prebiotic conditions.
 
-**Related**: [Sobol Global Sensitivity Report](Sobol_Global_Sensitivity_Report.md)
-
 <img width="5368" height="4570" alt="sobol_degradation_analysis" src="https://github.com/user-attachments/assets/52b13478-fd79-4b61-a7c4-b4bfd1902212" />
-
 
  ## Figure 2 Analysis
  The results presented in Figure 2 provide a dual-layer validation of the model:
+ 
  - Pearson Correlation (Panel A): Demonstrates a strong positive correlation between thymine selection and the uracil hydrolysis prefactor ($A_U$) and base catalysis.
  - Sobol Analysis (Panel B): Based on 16,000 runs ($T=68^\circ\text{C}, \text{pH}=7.5$), it identifies the first-order ($S_1$) and total-order ($S_T$) indices, confirming that differential hydrolysis kinetics are the primary drivers of thymine enrichment.
  
   These findings align perfectly with the Stability-Kinetics Ratio framework.
 
-
-
-
-
-متن زیر برای تصویر مناسب است؟Figure 2 Analysis
 ## Relation to Manuscript
 These Sobol results are fully consistent with:
 - The **Stability-Kinetics Ratio** framework presented in the main text
