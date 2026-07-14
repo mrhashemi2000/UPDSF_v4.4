@@ -40,13 +40,13 @@ Pearson correlation coefficients between key model parameters and simulation out
 
 <img width="5368" height="4570" alt="sobol_degradation_analysis" src="https://github.com/user-attachments/assets/52b13478-fd79-4b61-a7c4-b4bfd1902212" />
 
- ## Figure 2 Analysis
- The results presented in Figure 2 provide a dual-layer validation of the model:
- 
- - Pearson Correlation (Panel A): Demonstrates a strong positive correlation between thymine selection and the uracil hydrolysis prefactor ($A_U$) and base catalysis.
- - Sobol Analysis (Panel B): Based on 16,000 runs ($T=68^\circ\text{C}, \text{pH}=7.5$), it identifies the first-order ($S_1$) and total-order ($S_T$) indices, confirming that differential hydrolysis kinetics are the primary drivers of thymine enrichment.
- 
-  These findings align perfectly with the Stability-Kinetics Ratio framework.
+## Figure 2 Analysis
+The Sobol global sensitivity analysis presented in Figure 2 provides a dual-layer validation of the model's robustness:
+
+- First-Order vs. Total-Order Effects ($S_1$ vs. $S_T$): The analysis identifies the individual contribution ($S_1$) and the total contribution including interactions ($S_T$) for each parameter. The uracil hydrolysis prefactor ($A_U$) and the base catalysis factor emerge as the dominant drivers across all key outputs (Enrichment, Thymine Fraction, and DNA Yield).
+- Interaction and Parameter Ranking (Bottom Row): The significant gap between $S_1$ and $S_T$ (visualized in the $S_1$ vs $S_T$ scatter plot and the Parameter Interactions plot) confirms that non-linear interactions between hydrolysis kinetics, pH-dependent catalysis, and environmental factors are crucial. All key parameters comfortably exceed the significance threshold (red dashed line in the ranking plot).
+
+These findings statistically validate the Stability-Kinetics Ratio framework by showing that prebiotic thymine selection is robustly driven by differential degradation kinetics rather than parameter tuning.
 
 ## Relation to Manuscript
 These Sobol results are fully consistent with:
@@ -66,5 +66,3 @@ The Sobol global sensitivity analysis strongly supports the central conclusion o
 - This report
 
 **Reproducibility**: All analyses were generated from the public repository [mrhashemi2000/UPDSF_v4.4](https://github.com/mrhashemi2000/UPDSF_v4.4).
-
----
