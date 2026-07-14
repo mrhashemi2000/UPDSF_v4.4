@@ -1,8 +1,8 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 # Expanded_Analysis_7
-# Sobol Global Sensitivity Analysis Report  
-**Supporting Manuscript IJA-2026-0085**
+## Sobol Global Sensitivity Analysis Report  
+# **Supporting Manuscript IJA-2026-0085**
 
 ## Overview
 This report presents the results of a **Global Sensitivity Analysis** using the Sobol method performed on the UPDSF v4.4 model. The analysis was conducted to evaluate the robustness of the model predictions and to identify the parameters with the greatest influence on thymine enrichment under prebiotic conditions.
