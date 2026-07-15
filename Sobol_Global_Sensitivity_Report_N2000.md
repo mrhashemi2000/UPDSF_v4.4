@@ -154,8 +154,46 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 # Relation to Manuscript
 These results fully support the **Stability-Kinetics Ratio** framework and demonstrate that the reported thymine preference is **statistically robust** and not an artifact of specific parameter choices.
 
+
+##  Global Sensitivity Analysis (Sobol Method)
+
+To identify the governing parameters affecting thymine enrichment, a comprehensive Global Sensitivity Analysis (GSA) was performed using the Sobol method. The simulation was executed across 64,000 independent runs to ensure statistical convergence and robustness.
+
+###  Key Findings
+The analysis revealed that the parameter $A_U$ (Pre-exponential factor for Uracil degradation) is the most critical driver of the system, with a Total-order index ($S_T$) $\approx 0.80$ and a First-order index ($S_1$) $\approx 0.31$.
+
+#### Analysis of Non-linear Interactions
+A significant gap was observed between the first-order ($S_1$) and total-order ($S_T$) indices, particularly for the `base_catalysis_factor` (where $S_T - S_1 \approx 0.50$). This disparity indicates the presence of strong non-linear interactions and mutual dependencies between parameters within the model, suggesting that the effect of base catalysis is heavily modulated by other environmental factors.
+
+#### Model Stability & Validation
+The results showed a remarkable consistency across all three primary output metrics:
+- Enrichment
+- Thymine Fraction
+- DNA Yield
+
+This uniformity across different outputs confirms the structural stability of the model and demonstrates that a single, unified degradation mechanism governs the entire process.
+
+---
+Summary Table:
+| Parameter | $S_1$ (Direct Effect) | $S_T$ (Total Effect) | Influence |
+| :--- | :---: | :---: | :---: |
+| $A_U$ | $\approx 0.31$ | $\approx 0.80$ | Critical |
+| `base_catalysis_factor` | $\approx 0.18$ | $\approx 0.68$ | High (Interactive) |
+| $A_C$ | $\approx 0.06$ | $\approx 0.57$ | Moderate |
+```
+
 # Conclusion
 The Sobol global sensitivity analysis with 64,000 simulations strongly confirms that **differential degradation kinetics** (primarily driven by A_U) is the main driver of thymine selection in heterogeneous prebiotic environments. Lipid membranes play an important stabilizing and protective role.
+
+
+###  Sobol Sensitivity Analysis Results
+The global sensitivity analysis (N=64,000) identifies $A_U$ as the most influential parameter ($S_T \approx 0.80, S_1 \approx 0.31$) for thymine enrichment. 
+
+Key Takeaways:
+- Non-linear Dynamics: A high difference between $S_T$ and $S_1$ (especially for `base_catalysis_factor`) reveals strong parameter interactions.
+- Consistency:* Identical sensitivity rankings across Enrichment, Fraction, and Yield outputs validate the model's stability.
+- *Convergence: Low confidence intervals indicate a highly converged and statistically robust result.
+```
 
 **Attached Files**:
 - `sobol_indices_20260715_083806.json` (raw data)
