@@ -68,7 +68,7 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 
 **Note:** S1 = First-order (direct) effect; ST = Total-order (including interactions) effect. Values in **bold** indicate the three most influential parameters.
 
----
+
 
 ## Table 2: Interpretation of Dominant Parameters (Enrichment Output)
 
@@ -83,7 +83,7 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 
 **Key Insight:** The large gap between S1 and ST for all parameters confirms that **non-linear interactions** are critical in determining thymine enrichment. No single parameter acts in isolation.
 
----
+
 
 ## Table 3: Correlation Summary by Parameter Category
 
@@ -97,7 +97,7 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 
 **Key Insight:** Hydrolysis kinetics and base catalysis are the **dominant drivers**, while environmental factors (lipid, clay, UV) exert their influence primarily through **synergistic interactions** with kinetic parameters.
 
----
+
 
 ## Table 4: Stability of Rankings Across Outputs
 
@@ -120,7 +120,7 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 
 **Key Insight:** The **ranking is remarkably consistent** across all three outputs (Enrichment, Thymine Fraction, and DNA Yield), confirming the **robustness of the model** and the **dominance of hydrolysis kinetics** regardless of which output metric is examined.
 
----
+
 
 ## Key Conclusions from Correlation Analysis
 
@@ -133,11 +133,6 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 4. **Ranking consistency across outputs** — proves the finding is robust and not an artifact of choosing a specific output metric.
 
 5. **Statistical validation of the Stability-Kinetics Ratio framework** — the dominant role of A_U (hydrolysis) directly supports the Sr = τ_stable / κ_poly framework, confirming that differential degradation kinetics is the primary driver of thymine selection.
-
----
-
-
-
 
 
 
@@ -177,7 +172,9 @@ Summary Table:
 | $A_U$ | $\approx 0.31$ | $\approx 0.80$ | Critical |
 | `base_catalysis_factor` | $\approx 0.18$ | $\approx 0.68$ | High (Interactive) |
 | $A_C$ | $\approx 0.06$ | $\approx 0.57$ | Moderate |
-```
+
+
+
 
 # Conclusion
 The Sobol global sensitivity analysis with 64,000 simulations strongly confirms that **differential degradation kinetics** (primarily driven by A_U) is the main driver of thymine selection in heterogeneous prebiotic environments. Lipid membranes play an important stabilizing and protective role.
