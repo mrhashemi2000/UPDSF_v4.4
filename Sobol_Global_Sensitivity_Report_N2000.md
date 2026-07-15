@@ -185,7 +185,7 @@ Key Takeaways:
 - Non-linear Dynamics: A high difference between $S_T$ and $S_1$ (especially for `base_catalysis_factor`) reveals strong parameter interactions.
 - Consistency:* Identical sensitivity rankings across Enrichment, Fraction, and Yield outputs validate the model's stability.
 - *Convergence: Low confidence intervals indicate a highly converged and statistically robust result.
-```
+
 
 **Attached Files**:
 - `sobol_indices_20260715_083806.json` (raw data)
