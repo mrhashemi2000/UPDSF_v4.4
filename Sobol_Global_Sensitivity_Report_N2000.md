@@ -1,6 +1,10 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
+# Expanded_Analysis_8
 # Sobol Global Sensitivity Analysis Report (N=2000)
+# **Supporting Manuscript IJA-2026-0085**
+
+
 ## UPDSF v4.4 — 64,000 Simulation Runs
 
 **Run Date**: July 15, 2026  
