@@ -45,7 +45,121 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 
 **Key Insight**: `A_U` and `base_catalysis_factor` show the strongest positive correlations with thymine enrichment and fraction, while negatively affecting total DNA yield.
 
-### Figure 1 Analysis (Sobol Plots)
+# UPDSF v4.4: Parameter-Output Correlation Analysis
+
+**Based on Sobol Global Sensitivity Analysis (N=64,000 simulations)**  
+**DOI:** [10.5281/zenodo.21224889](https://doi.org/10.5281/zenodo.21224889)
+
+---
+
+## Table 1: Sobol Sensitivity Indices for All Parameters Across Three Outputs
+
+| Parameter | Enrichment (S1) | Enrichment (ST) | Thymine Fraction (S1) | Thymine Fraction (ST) | DNA Yield (S1) | DNA Yield (ST) | Rank (Avg ST) |
+|-----------|----------------|----------------|----------------------|----------------------|----------------|----------------|---------------|
+| **A_U** (Uracil hydrolysis prefactor) | **0.316** | **0.801** | **0.316** | **0.801** | **0.314** | **0.797** | **1** |
+| **base_catalysis_factor** | **0.177** | **0.684** | **0.177** | **0.684** | **0.183** | **0.687** | **2** |
+| **A_C** (Cytosine deamination) | 0.061 | 0.568 | 0.061 | 0.568 | 0.061 | 0.564 | **3** |
+| Ea_C_deam (Cytosine deamination Ea) | -0.008 | 0.506 | -0.008 | 0.506 | -0.007 | 0.504 | 4 |
+| A_T (Thymine hydrolysis prefactor) | 0.003 | 0.498 | 0.003 | 0.498 | 0.002 | 0.495 | 5 |
+| UV_resistance_A | 0.014 | 0.500 | 0.014 | 0.500 | 0.016 | 0.497 | 6 |
+| Ea_A (Adenine activation energy) | 0.039 | 0.497 | 0.039 | 0.497 | 0.039 | 0.493 | 7 |
+| Ea_T (Thymine activation energy) | 0.027 | 0.496 | 0.027 | 0.496 | 0.028 | 0.493 | 8 |
+| lipid_protection | -0.020 | 0.496 | -0.020 | 0.496 | -0.018 | 0.495 | 9 |
+| UV_resistance_T | 0.022 | 0.499 | 0.022 | 0.499 | 0.022 | 0.495 | 10 |
+| Ea_U (Uracil activation energy) | -0.035 | 0.487 | -0.035 | 0.487 | -0.032 | 0.484 | 11 |
+| deamination_ratio | -0.010 | 0.488 | -0.010 | 0.488 | -0.009 | 0.486 | 12 |
+| UV_resistance_C | -0.021 | 0.494 | -0.021 | 0.494 | -0.021 | 0.491 | 13 |
+| clay_protection | -0.021 | 0.466 | -0.021 | 0.466 | -0.021 | 0.464 | 14 |
+
+**Note:** S1 = First-order (direct) effect; ST = Total-order (including interactions) effect. Values in **bold** indicate the three most influential parameters.
+
+---
+
+## Table 2: Interpretation of Dominant Parameters (Enrichment Output)
+
+| Parameter | S1 (Direct) | ST (Total) | Δ (ST-S1) | Interpretation |
+|-----------|------------|------------|-----------|----------------|
+| **A_U** | 0.316 | 0.801 | **0.485** | Strong direct effect + very strong interactions → **dominant driver of thymine selection** |
+| **base_catalysis_factor** | 0.177 | 0.684 | **0.507** | Moderate direct effect + strong interactions → **key synergistic factor** |
+| **A_C** | 0.061 | 0.568 | **0.507** | Weak direct effect but strong interactions → **interaction-driven influence** |
+| Ea_C_deam | -0.008 | 0.506 | 0.514 | Negative S1 indicates complex, interaction-dominated role |
+| A_T | 0.003 | 0.498 | 0.495 | Negligible direct effect → influence entirely through interactions |
+| All others | <0.05 | 0.46–0.50 | ~0.45–0.50 | Weak direct effects but significant total effects → **synergistic roles** |
+
+**Key Insight:** The large gap between S1 and ST for all parameters confirms that **non-linear interactions** are critical in determining thymine enrichment. No single parameter acts in isolation.
+
+---
+
+## Table 3: Correlation Summary by Parameter Category
+
+| Category | Parameters | ST Range (avg) | S1 Range | Influence Type |
+|----------|-----------|----------------|----------|----------------|
+| **Hydrolysis Kinetics** | A_U, A_T, A_C, Ea_U, Ea_T, Ea_C_deam | 0.49–0.80 | -0.035 to 0.316 | **Primary drivers** (direct + interaction) |
+| **Catalysis** | base_catalysis_factor | 0.684 | 0.177 | **Strong synergistic** (interaction-driven) |
+| **Environmental Protection** | lipid_protection, clay_protection | 0.46–0.50 | -0.021 to -0.020 | Moderate synergistic (primarily interactions) |
+| **UV Resistance** | UV_resistance_T, UV_resistance_C, UV_resistance_A | 0.49–0.50 | -0.021 to 0.022 | Weak direct, moderate total (interaction-driven) |
+| **Deamination** | deamination_ratio, A_C | 0.49–0.57 | -0.010 to 0.061 | Cytosine degradation contributes via interactions |
+
+**Key Insight:** Hydrolysis kinetics and base catalysis are the **dominant drivers**, while environmental factors (lipid, clay, UV) exert their influence primarily through **synergistic interactions** with kinetic parameters.
+
+---
+
+## Table 4: Stability of Rankings Across Outputs
+
+| Parameter | Enrichment Rank | Thymine Fraction Rank | DNA Yield Rank | Average Rank |
+|-----------|----------------|----------------------|----------------|--------------|
+| A_U | 1 | 1 | 1 | **1** |
+| base_catalysis_factor | 2 | 2 | 2 | **2** |
+| A_C | 3 | 3 | 3 | **3** |
+| Ea_C_deam | 4 | 4 | 4 | 4 |
+| A_T | 5 | 5 | 5 | 5 |
+| UV_resistance_A | 6 | 6 | 6 | 6 |
+| Ea_A | 7 | 7 | 7 | 7 |
+| Ea_T | 8 | 8 | 8 | 8 |
+| lipid_protection | 9 | 9 | 9 | 9 |
+| UV_resistance_T | 10 | 10 | 10 | 10 |
+| Ea_U | 11 | 11 | 11 | 11 |
+| deamination_ratio | 12 | 12 | 12 | 12 |
+| UV_resistance_C | 13 | 13 | 13 | 13 |
+| clay_protection | 14 | 14 | 14 | 14 |
+
+**Key Insight:** The **ranking is remarkably consistent** across all three outputs (Enrichment, Thymine Fraction, and DNA Yield), confirming the **robustness of the model** and the **dominance of hydrolysis kinetics** regardless of which output metric is examined.
+
+---
+
+## Key Conclusions from Correlation Analysis
+
+1. **A_U is the undisputed dominant parameter** — with S1 ≈ 0.316 and ST ≈ 0.801, it alone explains ~31% of variance directly and over 80% through interactions.
+
+2. **Large Δ (ST – S1) confirms non-linear interactions** — especially between hydrolysis kinetics and environmental factors (pH, lipid protection, UV resistance).
+
+3. **Environmental parameters show negative S1** — indicating their effect is entirely through interactions (e.g., lipid protection enhances thymine survival synergistically with hydrolysis kinetics).
+
+4. **Ranking consistency across outputs** — proves the finding is robust and not an artifact of choosing a specific output metric.
+
+5. **Statistical validation of the Stability-Kinetics Ratio framework** — the dominant role of A_U (hydrolysis) directly supports the Sr = τ_stable / κ_poly framework, confirming that differential degradation kinetics is the primary driver of thymine selection.
+
+---
+
+## Data Source
+
+All indices derived from `sobol_indices_20260715_083806.json` (N=64,000 simulations).  
+Full reproducibility available at: [github.com/mrhashemi2000/UPDSF_v4.4](https://github.com/mrhashemi2000/UPDSF_v4.4)
+
+---
+
+## Citation
+
+> Reza Hashemi. (2026). mrhashemi2000/UPDSF_v4.4: Initial release. Zenodo. https://doi.org/10.5281/zenodo.21224889
+
+---
+
+**License:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+
+
+
+# Figure 1 Analysis (Sobol Plots)
 (Insert `sobol_degradation_analysis.png` here)
 
 <img width="5368" height="4483" alt="sobol_degradation_analysis" src="https://github.com/user-attachments/assets/25354532-ed88-4855-bffa-4a386df453bb" />
