@@ -41,16 +41,11 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 - Strong **parameter interactions** (large gap between S1 and ST) indicate non-linear model behavior.
 - Lipid and clay protection show moderate direct effects but important synergistic contributions.
 
-### Parameter-Output Correlation Analysis
+# Parameter-Output Correlation Analysis
 
 **Key Insight**: `A_U` and `base_catalysis_factor` show the strongest positive correlations with thymine enrichment and fraction, while negatively affecting total DNA yield.
 
-# UPDSF v4.4: Parameter-Output Correlation Analysis
 
-**Based on Sobol Global Sensitivity Analysis (N=64,000 simulations)**  
-**DOI:** [10.5281/zenodo.21224889](https://doi.org/10.5281/zenodo.21224889)
-
----
 
 ## Table 1: Sobol Sensitivity Indices for All Parameters Across Three Outputs
 
@@ -141,26 +136,13 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 
 ---
 
-## Data Source
 
-All indices derived from `sobol_indices_20260715_083806.json` (N=64,000 simulations).  
-Full reproducibility available at: [github.com/mrhashemi2000/UPDSF_v4.4](https://github.com/mrhashemi2000/UPDSF_v4.4)
-
----
-
-## Citation
-
-> Reza Hashemi. (2026). mrhashemi2000/UPDSF_v4.4: Initial release. Zenodo. https://doi.org/10.5281/zenodo.21224889
-
----
-
-**License:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 
 
 
 # Figure 1 Analysis (Sobol Plots)
-(Insert `sobol_degradation_analysis.png` here)
+
 
 <img width="5368" height="4483" alt="sobol_degradation_analysis" src="https://github.com/user-attachments/assets/25354532-ed88-4855-bffa-4a386df453bb" />
 
@@ -169,10 +151,10 @@ Full reproducibility available at: [github.com/mrhashemi2000/UPDSF_v4.4](https:/
 - All key parameters exceed the significance threshold.
 - Significant non-linear interactions between hydrolysis kinetics and environmental factors were confirmed.
 
-### Relation to Manuscript
+# Relation to Manuscript
 These results fully support the **Stability-Kinetics Ratio** framework and demonstrate that the reported thymine preference is **statistically robust** and not an artifact of specific parameter choices.
 
-### Conclusion
+# Conclusion
 The Sobol global sensitivity analysis with 64,000 simulations strongly confirms that **differential degradation kinetics** (primarily driven by A_U) is the main driver of thymine selection in heterogeneous prebiotic environments. Lipid membranes play an important stabilizing and protective role.
 
 **Attached Files**:
