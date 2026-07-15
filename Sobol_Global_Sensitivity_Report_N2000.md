@@ -154,9 +154,6 @@ This report presents the results of a **Global Sensitivity Analysis** using the 
 # Relation to Manuscript
 These results fully support the **Stability-Kinetics Ratio** framework and demonstrate that the reported thymine preference is **statistically robust** and not an artifact of specific parameter choices.
 
-
-##  Global Sensitivity Analysis (Sobol Method)
-
 To identify the governing parameters affecting thymine enrichment, a comprehensive Global Sensitivity Analysis (GSA) was performed using the Sobol method. The simulation was executed across 64,000 independent runs to ensure statistical convergence and robustness.
 
 ###  Key Findings
@@ -185,8 +182,6 @@ Summary Table:
 # Conclusion
 The Sobol global sensitivity analysis with 64,000 simulations strongly confirms that **differential degradation kinetics** (primarily driven by A_U) is the main driver of thymine selection in heterogeneous prebiotic environments. Lipid membranes play an important stabilizing and protective role.
 
-
-###  Sobol Sensitivity Analysis Results
 The global sensitivity analysis (N=64,000) identifies $A_U$ as the most influential parameter ($S_T \approx 0.80, S_1 \approx 0.31$) for thymine enrichment. 
 
 Key Takeaways:
