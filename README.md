@@ -137,10 +137,17 @@ If you use this framework in your research, please cite it as:
 
 
     - Lindahl, T. (1993). Nature, 362, 709-715. (DNA stability)
+    
     - Shapiro, R. (1999). Chem. Rev., 99, 2501-2536. (Deamination)
+    
     - Cleaves, H.J. (2010). Astrobiology, 10, 337-346. (Prebiotic chemistry)
+    
     - Ravanat, J.L. (1995). J. Biol. Chem., 270, 12305-12311. (UV damage)
+    
     - Shen, J.C. (1994). Biochemistry, 33, 10756-10764. (Cytosine deamination)
+    
     - Ferris, J.P. (1996). Orig. Life Evol. Biosph., 26, 449-461. (Clay catalysis)
+    
     - Deamer, D.W. (2017). Life, 7, 5. (Lipid membranes)
+    
     - Szostak, J.W. (2010). Cold Spring Harb. Perspect. Biol., 2, a002246. (Protocells)
