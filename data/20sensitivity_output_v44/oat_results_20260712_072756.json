@@ -1,0 +1,145 @@
+{
+  "base_fraction": 0.3564730459179942,
+  "parameters": {
+    "Thymine Ea (kcal/mol)": {
+      "param_name": "Ea_T",
+      "base_value": 32.0,
+      "low_value": 25.6,
+      "high_value": 38.4,
+      "low_change": -10.880929971898242,
+      "high_change": 5.889337929315177,
+      "max_abs_change": 10.880929971898242,
+      "category": "Thermodynamic"
+    },
+    "Uracil Ea (kcal/mol)": {
+      "param_name": "Ea_U",
+      "base_value": 27.0,
+      "low_value": 21.6,
+      "high_value": 32.4,
+      "low_change": 6.35776509328602,
+      "high_change": -7.977243307247435,
+      "max_abs_change": 7.977243307247435,
+      "category": "Thermodynamic"
+    },
+    "Cytosine Deam. Ea": {
+      "param_name": "Ea_C_deam",
+      "base_value": 23.0,
+      "low_value": 18.400000000000002,
+      "high_value": 27.599999999999998,
+      "low_change": -0.8054025403887846,
+      "high_change": 1.6697144457603026,
+      "max_abs_change": 1.6697144457603026,
+      "category": "Thermodynamic"
+    },
+    "Adenine Ea (kcal/mol)": {
+      "param_name": "Ea_A",
+      "base_value": 29.0,
+      "low_value": 23.200000000000003,
+      "high_value": 34.8,
+      "low_change": -3.9246665433991903,
+      "high_change": 2.2365107358059957,
+      "max_abs_change": 3.9246665433991903,
+      "category": "Thermodynamic"
+    },
+    "Thymine UV Resistance": {
+      "param_name": "UV_RESISTANCE_T",
+      "base_value": 0.28,
+      "low_value": 0.22400000000000003,
+      "high_value": 0.336,
+      "low_change": -2.904717085861911,
+      "high_change": 1.1215392342232344,
+      "max_abs_change": 2.904717085861911,
+      "category": "UV"
+    },
+    "Cytosine Deam. Ratio": {
+      "param_name": "DEAMINATION_RATIO_C",
+      "base_value": 36.0,
+      "low_value": 28.8,
+      "high_value": 43.199999999999996,
+      "low_change": 0.9211412284633312,
+      "high_change": -2.524267385186548,
+      "max_abs_change": 2.524267385186548,
+      "category": "Deamination"
+    },
+    "Initial T Pool": {
+      "param_name": "INITIAL_T_MONOMER",
+      "base_value": 170000,
+      "low_value": 136000.0,
+      "high_value": 204000.0,
+      "low_change": -2.367982930311889,
+      "high_change": -5.928530846168363,
+      "max_abs_change": 5.928530846168363,
+      "category": "Initial Pools"
+    },
+    "Initial U Pool": {
+      "param_name": "INITIAL_U_MONOMER",
+      "base_value": 830000,
+      "low_value": 664000.0,
+      "high_value": 996000.0,
+      "low_change": -1.8297224566432801,
+      "high_change": -2.4714078301964864,
+      "max_abs_change": 2.4714078301964864,
+      "category": "Initial Pools"
+    },
+    "Initial C Pool": {
+      "param_name": "INITIAL_C_MONOMER",
+      "base_value": 650000,
+      "low_value": 520000.0,
+      "high_value": 780000.0,
+      "low_change": -2.801798014692115,
+      "high_change": -1.9835427861357664,
+      "max_abs_change": 2.801798014692115,
+      "category": "Initial Pools"
+    },
+    "Initial A Pool": {
+      "param_name": "INITIAL_A_MONOMER",
+      "base_value": 420000,
+      "low_value": 336000.0,
+      "high_value": 504000.0,
+      "low_change": 1.7199172083495429,
+      "high_change": -4.627403928221739,
+      "max_abs_change": 4.627403928221739,
+      "category": "Initial Pools"
+    },
+    "Lipid Protection": {
+      "param_name": "PROTECTION_FACTOR",
+      "base_value": 4.5,
+      "low_value": 3.6,
+      "high_value": 5.3999999999999995,
+      "low_change": -4.906741589540925,
+      "high_change": -0.9401943318039254,
+      "max_abs_change": 4.906741589540925,
+      "category": "Protection"
+    },
+    "Replication Fidelity": {
+      "param_name": "FIDELITY",
+      "base_value": 0.93,
+      "low_value": 0.7440000000000001,
+      "high_value": 1.116,
+      "low_change": -14.42928205166808,
+      "high_change": 3.924983654724043,
+      "max_abs_change": 14.42928205166808,
+      "category": "Fidelity"
+    },
+    "T Fidelity Bonus": {
+      "param_name": "FIDELITY_T_BONUS",
+      "base_value": 1.35,
+      "low_value": 1.08,
+      "high_value": 1.62,
+      "low_change": -8.533857878945264,
+      "high_change": 0.45010853286361574,
+      "max_abs_change": 8.533857878945264,
+      "category": "Fidelity"
+    },
+    "Clay Protection": {
+      "param_name": "CPF",
+      "base_value": 9.5,
+      "low_value": 7.6000000000000005,
+      "high_value": 11.4,
+      "low_change": -8.411960480444064,
+      "high_change": 2.439115483090038,
+      "max_abs_change": 8.411960480444064,
+      "category": "Protection"
+    }
+  }
+}

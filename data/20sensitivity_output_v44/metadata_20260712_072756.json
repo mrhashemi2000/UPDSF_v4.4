@@ -1,0 +1,125 @@
+{
+  "timestamp": "20260712_072756",
+  "version": "v4.4",
+  "settings": {
+    "temperature_C": 70.0,
+    "pH": 7.5,
+    "perturbation": 0.2,
+    "n_mc_samples": 20,
+    "random_seed": 42
+  },
+  "parameters": [
+    {
+      "name": "Ea_T",
+      "label": "Thymine Ea (kcal/mol)",
+      "base": 32.0,
+      "min": 22.4,
+      "max": 41.6,
+      "category": "Thermodynamic"
+    },
+    {
+      "name": "Ea_U",
+      "label": "Uracil Ea (kcal/mol)",
+      "base": 27.0,
+      "min": 18.9,
+      "max": 35.1,
+      "category": "Thermodynamic"
+    },
+    {
+      "name": "Ea_C_deam",
+      "label": "Cytosine Deam. Ea",
+      "base": 23.0,
+      "min": 16.1,
+      "max": 29.9,
+      "category": "Thermodynamic"
+    },
+    {
+      "name": "Ea_A",
+      "label": "Adenine Ea (kcal/mol)",
+      "base": 29.0,
+      "min": 20.3,
+      "max": 37.7,
+      "category": "Thermodynamic"
+    },
+    {
+      "name": "UV_RESISTANCE_T",
+      "label": "Thymine UV Resistance",
+      "base": 0.28,
+      "min": 0.15,
+      "max": 0.5,
+      "category": "UV"
+    },
+    {
+      "name": "DEAMINATION_RATIO_C",
+      "label": "Cytosine Deam. Ratio",
+      "base": 36.0,
+      "min": 10,
+      "max": 70,
+      "category": "Deamination"
+    },
+    {
+      "name": "INITIAL_T_MONOMER",
+      "label": "Initial T Pool",
+      "base": 170000,
+      "min": 85000,
+      "max": 340000,
+      "category": "Initial Pools"
+    },
+    {
+      "name": "INITIAL_U_MONOMER",
+      "label": "Initial U Pool",
+      "base": 830000,
+      "min": 415000,
+      "max": 1660000,
+      "category": "Initial Pools"
+    },
+    {
+      "name": "INITIAL_C_MONOMER",
+      "label": "Initial C Pool",
+      "base": 650000,
+      "min": 325000,
+      "max": 1300000,
+      "category": "Initial Pools"
+    },
+    {
+      "name": "INITIAL_A_MONOMER",
+      "label": "Initial A Pool",
+      "base": 420000,
+      "min": 210000,
+      "max": 840000,
+      "category": "Initial Pools"
+    },
+    {
+      "name": "PROTECTION_FACTOR",
+      "label": "Lipid Protection",
+      "base": 4.5,
+      "min": 1.5,
+      "max": 8.0,
+      "category": "Protection"
+    },
+    {
+      "name": "FIDELITY",
+      "label": "Replication Fidelity",
+      "base": 0.93,
+      "min": 0.85,
+      "max": 0.98,
+      "category": "Fidelity"
+    },
+    {
+      "name": "FIDELITY_T_BONUS",
+      "label": "T Fidelity Bonus",
+      "base": 1.35,
+      "min": 1.0,
+      "max": 1.7,
+      "category": "Fidelity"
+    },
+    {
+      "name": "CPF",
+      "label": "Clay Protection",
+      "base": 9.5,
+      "min": 3.0,
+      "max": 20.0,
+      "category": "Protection"
+    }
+  ]
+}
