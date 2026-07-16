@@ -93,11 +93,30 @@ To run the UPDSF v4.4 simulation on your local machine, follow these steps:
 ## Methodology: IA-Augmented Discovery
 This project utilizes a recursive collaboration between human reasoning and AI-assisted modeling. The framework evolves through continuous feedback loops, allowing for rapid interdisciplinary discovery at the intersection of astrobiology, physical chemistry, and computational physics.https://doi.org/10.5281/zenodo.18594133
 
+
+##  Data Archive & Reproducibility
+
+To ensure the full transparency and reproducibility of the simulation results, the key computational data has been archived in the `/data` directory.
+
+### Contents of the `/data` folder:
+- Sobol Indices (`.json`): Contains the first-order ($\text{S}_1$) and total-order ($\text{S}_{\text{T}}$) sensitivity indices, along with their respective confidence intervals. These files provide the statistical evidence for the parameter importance analysis.
+- Degradation Data (`.csv`):* The raw output of the simulation runs, detailing the chemical selection and degradation kinetics under the specified prebiotic environmental conditions.
+
+### How to use the data:
+The provided `.json` files can be directly loaded into Python using the `json` library to regenerate the sensitivity plots and analysis tables presented in the manuscript.
+
+
+All simulation results were achieved using the `UPDSF_v4.4.py` engine, ensuring that the findings are computationally robust and verifiable.
+
+
+
 ## Citation
 If you use this framework in your research, please cite it as:
 > Reza Hashemi. (2026). mrhashemi2000/UPDSF_v4.4: Initial release. Zenodo. https://doi.org/10.5281/zenodo.21224889
 
+
 ## REFERENCES:
+
 
     - Lindahl, T. (1993). Nature, 362, 709-715. (DNA stability)
     - Shapiro, R. (1999). Chem. Rev., 99, 2501-2536. (Deamination)
