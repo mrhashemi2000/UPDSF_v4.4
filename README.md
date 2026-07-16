@@ -87,7 +87,7 @@ CORE FEATURES:
 
 ##  Installation & Setup
 
-To run the UPDSF v4.4 simulation on your local machine, follow these steps:
+To run the UPDSF_v4.4 simulation on your local machine, follow these steps:
 
 1. Clone the repository:
    git clone https://github.com/mrhashemi2000/UPDSF_v4.4.git
