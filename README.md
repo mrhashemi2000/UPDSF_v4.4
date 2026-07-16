@@ -95,18 +95,26 @@ CORE FEATURES:
 
 ## Installation & Setup
 
+
+##  Installation & Setup
+
 To run the UPDSF v4.4 simulation on your local machine, follow these steps:
 
 1. Clone the repository:
    git clone https://github.com/mrhashemi2000/UPDSF_v4.4.git
    cd UPDSF_v4.4
    
+
 2. Install the dependencies:
-   It is recommended to use a virtual environment. You can install all required libraries using the provided `requirements.txt` file:
+   It is recommended to use a virtual environment. Install all required libraries using:
    pip install -r requirements.txt
    
+
 3. Run the simulation:
    python UPDSF_v4.4.py
+   
+
+---
 
 ## Methodology: IA-Augmented Discovery
 This project utilizes a recursive collaboration between human reasoning and AI-assisted modeling. The framework evolves through continuous feedback loops, allowing for rapid interdisciplinary discovery at the intersection of astrobiology, physical chemistry, and computational physics.https://doi.org/10.5281/zenodo.18594133
