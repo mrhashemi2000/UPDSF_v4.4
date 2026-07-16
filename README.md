@@ -1,6 +1,6 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-## UPDSF v4.4: Unified Prebiotic DNA Selection Framework 
+## UPDSF_v4.4: Unified Prebiotic DNA Selection Framework 
 
 Environment: 🐍 Python 3.8+
 
