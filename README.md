@@ -93,9 +93,6 @@ CORE FEATURES:
 - 4-Base System: U, T, C, A with detailed cytosine deamination pathways.
 - Data Export: Robust output in JSON and CSV formats for external analysis.
 
-## Installation & Setup
-
-
 ##  Installation & Setup
 
 To run the UPDSF v4.4 simulation on your local machine, follow these steps:
