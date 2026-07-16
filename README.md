@@ -8,41 +8,33 @@ Environment: 🐍 Python 3.8+
 
 ## ORCID:0009-0002-0645-5180
 
-https://doi.org/10.5281/zenodo.17273763
 
-https://doi.org/10.5281/zenodo.18137476
 
-https://doi.org/10.5281/zenodo.18092867
+## 📑 Zenodo Archive & Digital Object Identifiers (DOIs)
+To ensure full transparency and reproducibility, the computational data and various versions of this framework are archived on Zenodo.
 
-https://doi.org/10.5281/zenodo.18080826
+| Resource / DOI | Link |
+| :--- | :--- |
+| 📄 Zenodo 17273763 | [Click to Open](https://doi.org/10.5281/zenodo.17273763) |
+| 📄 Zenodo 18137476 | [Click to Open](https://doi.org/10.5281/zenodo.18137476) |
+| 📄 Zenodo 18092867 | [Click to Open](https://doi.org/10.5281/zenodo.18092867) |
+| 📄 Zenodo 18080826 | [Click to Open](https://doi.org/10.5281/zenodo.18080826) |
+| 📄 Zenodo 20988680 | [Click to Open](https://doi.org/10.5281/zenodo.20988680) |
+| 📄 Zenodo 20825578 | [Click to Open](https://doi.org/10.5281/zenodo.20825578) |
+| 📄 Zenodo 20733760 | [Click to Open](https://doi.org/10.5281/zenodo.20733760) |
+| 📄 Zenodo 20759622 | [Click to Open](https://doi.org/10.5281/zenodo.20759622) |
+| 📄 Zenodo 20771213 | [Click to Open](https://doi.org/10.5281/zenodo.20771213) |
+| 📄 Zenodo 18594133 | [Click to Open](https://doi.org/10.5281/zenodo.18594133) |
+| 📄 Zenodo 17280179 | [Click to Open](https://doi.org/10.5281/zenodo.17280179) |
+| 📄 Zenodo 17964430 | [Click to Open](https://doi.org/10.5281/zenodo.17964430) |
+| 📄 Zenodo 15290482 | [Click to Open](https://doi.org/10.5281/zenodo.15290482) |
+| 📄 Zenodo 15428322 | [Click to Open](https://doi.org/10.5281/zenodo.15428322) |
+| 📄 Zenodo 15428338 | [Click to Open](https://doi.org/10.5281/zenodo.15428338) |
+| 📄 Zenodo 15428356 | [Click to Open](https://doi.org/10.5281/zenodo.15428356) |
+| 📄 Zenodo 15428367 | [Click to Open](https://doi.org/10.5281/zenodo.15428367) |
 
-https://doi.org/10.5281/zenodo.20988680
 
-https://doi.org/10.5281/zenodo.20825578
-
-https://doi.org/10.5281/zenodo.20733760
-
-https://doi.org/10.5281/zenodo.20759622
-
-https://doi.org/10.5281/zenodo.20771213
-
-https://doi.org/10.5281/zenodo.18594133
-
-https://doi.org/10.5281/zenodo.17280179
-
-https://doi.org/10.5281/zenodo.17964430
-
-https://doi.org/10.5281/zenodo.15290482
-
-https://doi.org/10.5281/zenodo.15428322
-
-https://doi.org/10.5281/zenodo.15428322
-
-https://doi.org/10.5281/zenodo.15428338
-
-https://doi.org/10.5281/zenodo.15428356
-
-https://doi.org/10.5281/zenodo.15428367
+---
 
 
 ## Overview
