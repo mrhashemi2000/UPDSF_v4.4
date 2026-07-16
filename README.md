@@ -103,11 +103,12 @@ To run the UPDSF v4.4 simulation on your local machine, follow these steps:
    
 
 2. Install the dependencies:
-   It is recommended to use a virtual environment. Install all required libraries using:
+   It is recommended to use a virtual environment.
+   Install all required libraries using:
    pip install -r requirements.txt
    
 
-3. Run the simulation:
+4. Run the simulation:
    python UPDSF_v4.4.py
    
 
