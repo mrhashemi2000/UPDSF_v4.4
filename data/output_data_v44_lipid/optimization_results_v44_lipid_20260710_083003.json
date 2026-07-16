@@ -1,0 +1,50 @@
+{
+  "version": "4.4",
+  "calibration": "STRICTLY EMPIRICAL - All parameters from literature",
+  "features": [
+    "empirical_parameters",
+    "literature_calibration",
+    "verified_ratios",
+    "lipid_membrane"
+  ],
+  "references": [
+    "Lindahl, T. (1993). Nature, 362, 709-715.",
+    "Shapiro, R. (1999). Chem. Rev., 99, 2501-2536.",
+    "Cleaves, H.J. (2010). Astrobiology, 10, 337-346.",
+    "Ravanat, J.L. (1995). J. Biol. Chem., 270, 12305-12311.",
+    "Shen, J.C. (1994). Biochemistry, 33, 10756-10764.",
+    "Ferris, J.P. (1996). Orig. Life Evol. Biosph., 26, 449-461.",
+    "Deamer, D.W. (2017). Life, 7, 5.",
+    "Szostak, J.W. (2010). Cold Spring Harb. Perspect. Biol., 2, a002246."
+  ],
+  "empirical_parameters": {
+    "Ea_U": 27.0,
+    "Ea_T": 32.0,
+    "Ea_C_deam": 23.0,
+    "Ea_A": 29.0,
+    "deamination_ratio_C": 36.0,
+    "UV_resistance_T_factor": 0.28,
+    "A_U": 8.5e-05,
+    "A_T": 1.2e-06
+  },
+  "simulation_hours": 240,
+  "polymer_length": 100,
+  "uv_exposure_factor": 0.8,
+  "lipid_conc": 0.05,
+  "optimal_T": 67.0,
+  "optimal_pH": 10.0,
+  "max_enrichment": 0.4936469662256818,
+  "optimal_fraction": 0.04054105519727822,
+  "optimal_yield": 229099,
+  "optimal_half_life": 4.473477284976656,
+  "optimal_stability": 112.54033542756322,
+  "optimal_uv_ratio": 4.107142857142857,
+  "optimal_vesicle_fraction": 0.408,
+  "optimal_composition": {
+    "U": 140790.0,
+    "T": 6387.0,
+    "C": 906.0,
+    "A": 9461.0
+  },
+  "timestamp": "20260710_083003"
+}
