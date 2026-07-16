@@ -75,6 +75,24 @@ CORE FEATURES:
     - Data Export: JSON and CSV output for further analysis.
 
 
+###  Key Updates in v4.4
+- Strictly Empirical Parameters: All values sourced from published experimental data.
+- Literature-Based Calibration: Based on Lindahl (1993), Shapiro (1999), and Cleaves (2010).
+- Verified Half-lives: Comparative analysis of RNA (hours) vs DNA (days) at 90°C.
+- Validated Deamination: Incorporating 36x higher rates for Cytosine (Shen et al.).
+- Verified UV Resistance: 3-4x stability for Thymine (Ravanat, Cadet).
+- Lipid Membrane Integration: Modeling prebiotic vesicle protection (Deamer, Szostak).
+
+###  Core Features
+- 2D Sensitivity Analysis: Multi-parameter optimization (Temperature $\times$ pH).
+- Empirically-Calibrated Kinetics: Literature-based kinetic constants.
+- UV Damage Modeling: Experimentally verified photostability ratios.
+- Polymer Physics: Integration of persistence length and conformational dynamics.
+- Langevin Dynamics: Modeling Brownian forces and thermal fluctuations.
+- Template-Directed Polymerization: High-fidelity base-pairing simulations.
+- 4-Base System: U, T, C, A with detailed cytosine deamination pathways.
+- Data Export: Robust output in JSON and CSV formats for external analysis.
+
 ## Installation & Setup
 
 To run the UPDSF v4.4 simulation on your local machine, follow these steps:
