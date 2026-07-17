@@ -13,7 +13,7 @@
 
 **Author:** Seyed Mohammad Reza Hashemi (Reza Hashemi)
 
-# Global Sensitivity Analysis: The Impact of Guanine (G) Integration
+# Global Sensitivity Analysis: The Impact of Guanine (G) Integration using Empirical Parameter Ranges
 
 ##  Overview
 To evaluate the robustness of the UPDSF v4.4 framework, a comprehensive Global Sensitivity Analysis (SoboL) was conducted including Guanine (G) in the chemical population. The objective was to determine if the introduction of an additional nucleobase would disrupt the established dominance of the `base_catalysis_factor` and `A_U` or introduce new critical dependencies.
