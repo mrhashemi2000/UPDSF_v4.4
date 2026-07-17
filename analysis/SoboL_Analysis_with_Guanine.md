@@ -1,3 +1,17 @@
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+# Expanded_Analysis_11
+# Sobol Sensitivity Analysis: Global Sensitivity Analysis (SoboL) including Guanine (G) in the chemical population
+# **Supporting Manuscript IJA-2026-0085**
+
+
+## UPDSF v4.4 — 76000 Simulation Runs
+
+**Run Date**: July 17, 2026  
+**Baseline Conditions**: T = 68.0°C, pH = 7.5, Polymer Length = 100 bases  
+**Sample Size**: 2,000 | **Total Runs**: **76000** | **CPU Cores**: 4
+
+**Author:** Seyed Mohammad Reza Hashemi (Reza Hashemi)
 
 # Global Sensitivity Analysis: The Impact of Guanine (G) Integration
 
@@ -44,4 +58,4 @@ The integration of Guanine into the simulation serves as a stress test for the f
 
 *Analysis performed using: `SoboL` Global Sensitivity Method  
 Framework: `UPDSF v4.4`  
-Researcher:* Seyed Mohammad Reza Hashemi
+
