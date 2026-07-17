@@ -1,4 +1,17 @@
-# Sobol Sensitivity Analysis: Narrow vs Wide Parameter Ranges  
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+# Expanded_Analysis_10
+# Sobol Sensitivity Analysis: Narrow vs Wide Parameter Ranges
+# **Supporting Manuscript IJA-2026-0085**
+
+
+## UPDSF v4.4 — 2×64,000 Simulation Runs
+
+**Run Date**: July 17, 2026  
+**Baseline Conditions**: T = 68.0°C, pH = 7.5, Polymer Length = 100 bases  
+**Sample Size**: 2,000 | **Total Runs**: **64,000** | **CPU Cores**: 4
+
+  
 **UPDSF v4.4** — Unified Prebiotic DNA Selection Framework
 
 **Analysis Date:** July 17, 2026  
