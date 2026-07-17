@@ -1,7 +1,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 
-#  Technical Report: Global Sensitivity Analysis  Full Integration of Guanine (G) using Empirical Parameter Ranges
+#  Technical Report UPDSF v4.4: Global Sensitivity Analysis  Full Integration of Guanine (G) using Empirical Parameter Ranges
 Project: UPDSF v4.4 — Unified Prebiotic DNA Selection Framework  
 Scenario: Full Integration of Guanine (G) using Empirical Parameter Ranges
 
