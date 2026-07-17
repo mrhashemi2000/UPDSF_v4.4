@@ -1,9 +1,15 @@
-# Sobol Sensitivity Analysis - UPDSF v4.4
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-**Repository:** [mrhashemi2000/UPDSF_v4.4](https://github.com/mrhashemi2000/UPDSF_v4.4)  
-**Version:** 4.4 (with Lipid Membrane)  
-**Analysis Date:** July 17, 2026  
-**Author:** Seyed Mohammad Reza Hashemi(RezaHashemi)
+# Expanded_Analysis_9
+# Sobol Global Sensitivity Analysis Report (N=2000)
+# **Supporting Manuscript IJA-2026-0085**
+
+
+## UPDSF v4.4 — 64,000 Simulation Runs
+
+**Run Date**: July 17, 2026  
+**Baseline Conditions**: T = 68.0°C, pH = 7.5, Polymer Length = 100 bases  
+**Sample Size**: 2,000 | **Total Runs**: **64,000** | **CPU Cores**: 4
 
 ---
 
