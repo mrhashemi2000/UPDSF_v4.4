@@ -71,10 +71,16 @@ The integration of Guanine into the simulation served as a stress test* for the 
 2.  Structural Integrity: The hierarchy of influence remains unchanged despite the addition of G.
 3.  Conclusion: The presence of Guanine does not interfere with the primary selective pressure favoring Thymine. This provides a rigorous mathematical justification that the model's focus on the $U \leftrightarrow T$ transition is scientifically sound and robust.
 
+
+> The negligible sensitivity indices of the Guanine-related parameters serve as a proof of the model's stability. It confirms that the framework is immune to parametric interference from non-dominant bases, ensuring that the transition from RNA to DNA is a deterministic process and not an artifact of specific, narrow parameter choices.
+
 ---
 
 ###  Final Conclusion
 The quantitative and visual data transform the UPDSF v4.4 from a theoretical simulation into a validated scientific instrument. By utilizing empirical parameter ranges and integrating Guanine, the study proves that the transition to thymine is a deterministic outcome of specific physicochemical filters. This confirms that the prebiotic evolutionary trajectory toward DNA is stable, reproducible, and robust against the presence of other nucleobases.
+
+
+> Model Robustness & Stability: The analysis demonstrates that the UPDSF v4.4 framework possesses high structural robustness. The fact that the primary evolutionary outcome remains stable despite the inclusion of Guanine and the variation of 18 different parameters proves that the model is not overly sensitive to stochastic noise or minor parametric fluctuations. This indicates that the Thymine selection is a convergent property of the system, rather than a fragile result of fine-tuned parameters.
 
 ---
 Data Source: `Sobol_Empirical_G_Output.json`  
