@@ -178,7 +178,7 @@ This project utilizes a recursive collaboration between human reasoning and AI-a
 
 *This cross-validation between Sobol and 2D optimization strengthens the reliability of the results.*
 
-**Conclusion**: Both methods confirm that **base catalysis** and **Uracil hydrolysis** are the most critical factors. UPDSF v4.4 provides more realistic and actionable results thanks to 2D optimization and lipid membrane modeling.
+**Conclusion**: Both methods identify the same dominant parameters that **base catalysis** and **Uracil hydrolysis** are the most critical factors. UPDSF v4.4 provides more realistic and actionable results thanks to 2D optimization and lipid membrane modeling.
 
 ---
 
