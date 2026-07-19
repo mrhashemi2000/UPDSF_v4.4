@@ -149,6 +149,35 @@ This project utilizes a recursive collaboration between human reasoning and AI-a
 | **Lipid Effect**          | Moderate                          | **Strong (4.5× protection)**         | Major UPDSF advantage |
 | **Methodology**           | Global sensitivity                | Full physics + optimization          | Complementary |
 
+
+## Sobol Sensitivity Analysis at Optimal Conditions
+
+**Conditions**: T = 68.0°C, pH = 7.5 (from UPDSF v4.4 optimization)
+
+### Top Parameters (Total-order Index - ST)
+
+| Rank | Parameter                    | ST       | S1       |
+|------|------------------------------|----------|----------|
+| 1    | `base_catalysis_factor`      | **0.656** | 0.427   |
+| 2    | `A_U`                        | **0.504** | 0.295   |
+| 3    | `A_C`                        | 0.211    | 0.057   |
+| 4    | `A_A`                        | 0.182    | 0.029   |
+
+**Key Insight**: At the optimal conditions identified by UPDSF v4.4, sensitivity to **base catalysis** and **Uracil hydrolysis** is even stronger than at higher temperature/pH.
+
+---
+
+### Comparison Across Conditions
+
+| Condition          | base_catalysis_factor (ST) | A_U (ST) | Max Enrichment Potential |
+|--------------------|----------------------------|----------|--------------------------|
+| T=76°C, pH=9.5     | 0.612                      | 0.454    | **9.887×**               |
+| **T=68°C, pH=7.5** | **0.656**                  | **0.504**| High                     |
+
+**Conclusion**: The optimal region (68–74°C, 7.5–8.5) not only maximizes enrichment but also increases the influence of the most critical parameters.
+
+*This cross-validation between Sobol and 2D optimization strengthens the reliability of the results.*
+
 **Conclusion**: Both methods confirm that **base catalysis** and **Uracil hydrolysis** are the most critical factors. UPDSF v4.4 provides more realistic and actionable results thanks to 2D optimization and lipid membrane modeling.
 
 ---
