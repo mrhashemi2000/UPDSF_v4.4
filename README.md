@@ -174,11 +174,18 @@ This project utilizes a recursive collaboration between human reasoning and AI-a
 | T=76°C, pH=9.5     | 0.612                      | 0.454    |               
 | **T=68°C, pH=7.5** | **0.656**                  | **0.504**|                     
 
-**Conclusion**: The optimal region (68–74°C, 7.5–8.5) not only maximizes enrichment but also increases the influence of the most critical parameters.
+## Guanine (G)
 
-*This cross-validation between Sobol and 2D optimization strengthens the reliability of the results.*
+Guanine exhibits moderate sensitivity in the Sobol global sensitivity analysis. The kinetic parameters (*Ea_G* and *A_G*) contribute to output variance, but their influence is smaller than that of the catalytic factor (`base_catalysis_factor`) and the uracil pre-exponential factor (`A_U`). This suggests that guanine stability is primarily governed by system-wide catalytic processes rather than guanine-specific kinetics.
 
-**Conclusion**: Both methods identify the same dominant parameters that **base catalysis** and **Uracil hydrolysis** are the most critical factors. UPDSF v4.4 provides more realistic and actionable results thanks to 2D optimization and lipid membrane modeling.
+- **Sensitivity:** Moderate
+- **Key parameters:** `Ea_G`, `A_G`
+- **Sobol insight:** Catalytic effects (`base_catalysis_factor`) dominate the overall model response, while guanine-specific kinetics have a secondary influence.
+
+# Conclusion: 
+
+The optimal region (68–74°C, 7.5–8.5) not only maximizes enrichment but also increases the influence of the most critical parameters.
+Both methods identify the same dominant parameters that **base catalysis** and **Uracil hydrolysis** are the most critical factors. UPDSF v4.4 provides more realistic and actionable results thanks to 2D optimization and lipid membrane modeling.
 
 ---
 
