@@ -169,10 +169,10 @@ This project utilizes a recursive collaboration between human reasoning and AI-a
 
 ### Comparison Across Conditions
 
-| Condition          | base_catalysis_factor (ST) | A_U (ST) | Max Enrichment Potential |
-|--------------------|----------------------------|----------|--------------------------|
-| T=76°C, pH=9.5     | 0.612                      | 0.454    | **9.887×**               |
-| **T=68°C, pH=7.5** | **0.656**                  | **0.504**| High                     |
+| Condition          | base_catalysis_factor (ST) | A_U (ST) |  
+|--------------------|----------------------------|----------|
+| T=76°C, pH=9.5     | 0.612                      | 0.454    |               
+| **T=68°C, pH=7.5** | **0.656**                  | **0.504**|                     
 
 **Conclusion**: The optimal region (68–74°C, 7.5–8.5) not only maximizes enrichment but also increases the influence of the most critical parameters.
 
