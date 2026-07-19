@@ -111,6 +111,60 @@ To run the UPDSF_v4.4 simulation on your local machine, follow these steps:
 ## Methodology: IA-Augmented Discovery
 This project utilizes a recursive collaboration between human reasoning and AI-assisted modeling. The framework evolves through continuous feedback loops, allowing for rapid interdisciplinary discovery at the intersection of astrobiology, physical chemistry, and computational physics.https://doi.org/10.5281/zenodo.18594133
 
+## Key Findings
+
+### 1. Sobol Sensitivity Analysis (76,000 runs)
+
+**Top Influential Parameters (Total-order Index - ST):**
+
+| Rank | Parameter                    | ST       | S1       |
+|------|------------------------------|----------|----------|
+| 1    | `base_catalysis_factor`      | **0.612**| 0.481   |
+| 2    | `A_U`                        | **0.454**| 0.330   |
+| 3    | `A_C`                        | 0.096    | 0.051   |
+| 4    | `A_A`                        | 0.068    | 0.026   |
+
+**Maximum Enrichment observed in Sobol**: **9.887×**
+
+---
+
+### 2. 2D Optimization Results (UPDSF v4.4)
+
+- **Optimal Temperature**: 68–74°C
+- **Optimal pH**: 7.5–8.5
+- **Maximum Thymine Enrichment**: **4.8×**
+- **Best Thymine Fraction**: 0.68
+- **Lipid Vesicle Protection**: up to **4.5×**
+
+---
+
+## Comparison: Sobol vs UPDSF v4.4
+
+| Aspect                     | Sobol (76k runs)                  | UPDSF v4.4 (2D Optimization)         | Notes |
+|---------------------------|-----------------------------------|--------------------------------------|-------|
+| **Dominant Parameters**   | `base_catalysis_factor`, `A_U`   | Same                                 | Strong agreement |
+| **Max Enrichment**        | **9.887×**                        | **4.8×**                             | Sobol at fixed point |
+| **Optimal Temp**          | Fixed 76°C                        | **68–74°C**                          | UPDSF more realistic |
+| **Optimal pH**            | Fixed 9.5                         | **7.5–8.5**                          | UPDSF more realistic |
+| **Lipid Effect**          | Moderate                          | **Strong (4.5× protection)**         | Major UPDSF advantage |
+| **Methodology**           | Global sensitivity                | Full physics + optimization          | Complementary |
+
+**Conclusion**: Both methods confirm that **base catalysis** and **Uracil hydrolysis** are the most critical factors. UPDSF v4.4 provides more realistic and actionable results thanks to 2D optimization and lipid membrane modeling.
+
+---
+
+## Repository Contents
+
+- `UPDSF_v4.4.py` — Main simulation engine
+- `Sobol_4Cores_Stable.py` — Sensitivity analysis
+- High-resolution plots in `attachments/`
+- Full datasets in `output_data_v44_lipid/`
+
+**References**: Lindahl (1993), Shapiro (1999), Cleaves (2010), Deamer (2017), and others.
+
+---
+
+*Intelligence-Augmented Research for Origins of Life*
 
 ##  Data Archive & Reproducibility
 
