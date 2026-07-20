@@ -128,22 +128,11 @@ This project utilizes a recursive collaboration between human reasoning and AI-a
 
 To ensure the full transparency and reproducibility of the simulation results, the key computational data has been archived in the `/data` directory.
 
-### Contents of the `/data` folder:
-- Sobol Indices (`.json`): Contains the first-order  and total-order  sensitivity indices, along with their respective confidence intervals. These files provide the statistical evidence for the parameter importance analysis.
-- Degradation Data (`.csv`):* The raw output of the simulation runs, detailing the chemical selection and degradation kinetics under the specified prebiotic environmental conditions.
-
-### How to use the data:
-The provided `.json` files can be directly loaded into Python using the `json` library to regenerate the sensitivity plots and analysis tables presented in the manuscript.
-
-
 All simulation results were achieved using the `UPDSF_v4.4.py` engine, ensuring that the findings are computationally robust and verifiable.
-
-
 
 ## Citation
 If you use this framework in your research, please cite it as:
 > Reza Hashemi. (2026). mrhashemi2000/UPDSF_v4.4: Initial release. Zenodo. https://doi.org/10.5281/zenodo.21224889
-
 
 ## REFERENCES:
 
