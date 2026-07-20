@@ -111,83 +111,47 @@ To run the UPDSF_v4.4 simulation on your local machine, follow these steps:
 ## Methodology: IA-Augmented Discovery
 This project utilizes a recursive collaboration between human reasoning and AI-assisted modeling. The framework evolves through continuous feedback loops, allowing for rapid interdisciplinary discovery at the intersection of astrobiology, physical chemistry, and computational physics.https://doi.org/10.5281/zenodo.18594133
 
-## Key Findings
+# Efficiency Analysis of Sobol Sensitivity Method in High-Dimensional Spaces
 
-### 1. Sobol Sensitivity Analysis (76,000 runs)
+##  The Core Challenge: The Curse of Dimensionality
 
-**Top Influential Parameters (Total-order Index - ST):**
+Applying the **Sobol Sensitivity Analysis** to models with a large number of parameters (e.g., 18 or more) is often computationally impractical. This is primarily due to the "Curse of Dimensionality," where the volume of the parameter space increases exponentially with the number of dimensions.
 
-| Rank | Parameter                    | ST       | S1       |
-|------|------------------------------|----------|----------|
-| 1    | `base_catalysis_factor`      | **0.612**| 0.481   |
-| 2    | `A_U`                        | **0.454**| 0.330   |
-| 3    | `A_C`                        | 0.096    | 0.051   |
-| 4    | `A_A`                        | 0.068    | 0.026   |
+###  Why Sobol is Inefficient for High-Dimensional Models?
 
-**Maximum Enrichment observed in Sobol**: **9.887×**
+1. **Prohibitive Computational Cost:** 
+   The number of required samples for a reliable Sobol estimate is roughly estimated by $\text{N} = n(2k + 2)$, where $n$ is the number of parameters and $k$ is the number of sampling points per dimension. For 18 parameters, the total number of simulations grows drastically. If the underlying model is computationally expensive (e.g., complex CFD or high-fidelity physics simulations), executing these samples becomes infeasible.
 
----
-
-### 2. 2D Optimization Results (UPDSF v4.4)
-
-- **Optimal Temperature**: 68–74°C
-- **Optimal pH**: 7.5–8.5
-- **Maximum Thymine Enrichment**: **4.8×**
-- **Best Thymine Fraction**: 0.68
-- **Lipid Vesicle Protection**: up to **4.5×**
+2. **Increased Estimation Variance:** 
+   In high-dimensional spaces, data points become sparse. This sparsity leads to high variance in the estimation of total-effect indices and interaction effects (second-order indices), rendering the results statistically unreliable or "noisy."
 
 ---
 
-## Comparison: Sobol vs UPDSF v4.4
+##  Recommended Strategies & Alternatives
 
-| Aspect                     | Sobol (76k runs)                  | UPDSF v4.4 (2D Optimization)         | Notes |
-|---------------------------|-----------------------------------|--------------------------------------|-------|
-| **Dominant Parameters**   | `base_catalysis_factor`, `A_U`   | Same                                 | Strong agreement |
-| **Max Enrichment**        | **9.887×**                        | **4.8×**                             | Sobol at fixed point |
-| **Optimal Temp**          | Fixed 76°C                        | **68–74°C**                          | UPDSF more realistic |
-| **Optimal pH**            | Fixed 9.5                         | **7.5–8.5**                          | UPDSF more realistic |
-| **Lipid Effect**          | Moderate                          | **Strong (4.5× protection)**         | Major UPDSF advantage |
-| **Methodology**           | Global sensitivity                | Full physics + optimization          | Complementary |
+To handle models with a high parameter count, the following strategies are recommended:
 
+### 1. Initial Screening via the Morris Method
+Instead of jumping directly into Sobol, use the **Morris Method**. This is a "global-local" sensitivity approach (One-Step-at-a-Time) designed to identify **insignificant parameters** with very low computational overhead.
+- **Objective:** Reduce the parameter space from 18 variables down to a manageable few (e.g., 5-6 key drivers).
 
-## Sobol Sensitivity Analysis at Optimal Conditions
+### 2. Surrogate Modeling (Metamodeling)
+Rather than querying the original "heavy" model, build a fast-to-evaluate approximation:
+- **Recommended Methods:** 
+  - $\text{Kriging / Gaussian Process Regression}$
+  - $\text{Polynomial Chaos Expansion (PCE)}$
+- **Advantage:** Once the surrogate model is trained, Sobol indices can be computed using millions of samples in seconds, as the surrogate replaces the expensive simulation.
 
-**Conditions**: T = 68.0°C, pH = 7.5 (from UPDSF v4.4 optimization)
-
-### Top Parameters (Total-order Index - ST)
-
-| Rank | Parameter                    | ST       | S1       |
-|------|------------------------------|----------|----------|
-| 1    | `base_catalysis_factor`      | **0.656** | 0.427   |
-| 2    | `A_U`                        | **0.504** | 0.295   |
-| 3    | `A_C`                        | 0.211    | 0.057   |
-| 4    | `A_A`                        | 0.182    | 0.029   |
-
-**Key Insight**: At the optimal conditions identified by UPDSF v4.4, sensitivity to **base catalysis** and **Uracil hydrolysis** is even stronger than at higher temperature/pH.
+### 3. The Optimal Hybrid Pipeline
+For complex, high-dimensional models, the most efficient workflow is:
+$$\text{Morris Method} \rightarrow \text{Parameter Reduction} \rightarrow \text{Surrogate Model} \rightarrow \text{Sobol Analysis}$$
 
 ---
 
-### Comparison Across Conditions
+##  Final Conclusion
+Executing a direct Sobol analysis on 18 parameters is generally **inefficient and computationally impractical**. The optimal approach is to utilize **initial screening** to prune the parameter space, followed by the implementation of a **surrogate model** for the final sensitivity quantification.
 
-| Condition          | base_catalysis_factor (ST) | A_U (ST) |  
-|--------------------|----------------------------|----------|
-| T=76°C, pH=9.5     | 0.612                      | 0.454    |               
-| **T=68°C, pH=7.5** | **0.656**                  | **0.504**|                     
 
-## Guanine (G)
-
-Guanine exhibits moderate sensitivity in the Sobol global sensitivity analysis. The kinetic parameters (*Ea_G* and *A_G*) contribute to output variance, but their influence is smaller than that of the catalytic factor (`base_catalysis_factor`) and the uracil pre-exponential factor (`A_U`). This suggests that guanine stability is primarily governed by system-wide catalytic processes rather than guanine-specific kinetics.
-
-- **Sensitivity:** Moderate
-- **Key parameters:** `Ea_G`, `A_G`
-- **Sobol insight:** Catalytic effects (`base_catalysis_factor`) dominate the overall model response, while guanine-specific kinetics have a secondary influence.
-
-# Conclusion: 
-
-The optimal region (68–74°C, 7.5–8.5) not only maximizes enrichment but also increases the influence of the most critical parameters.
-Both methods identify the same dominant parameters that **base catalysis** and **Uracil hydrolysis** are the most critical factors. UPDSF v4.4 provides more realistic and actionable results thanks to 2D optimization and lipid membrane modeling.
-
----
 
 ## Repository Contents
 
