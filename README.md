@@ -111,48 +111,6 @@ To run the UPDSF_v4.4 simulation on your local machine, follow these steps:
 ## Methodology: IA-Augmented Discovery
 This project utilizes a recursive collaboration between human reasoning and AI-assisted modeling. The framework evolves through continuous feedback loops, allowing for rapid interdisciplinary discovery at the intersection of astrobiology, physical chemistry, and computational physics.https://doi.org/10.5281/zenodo.18594133
 
-# Efficiency Analysis of Sobol Sensitivity Method in High-Dimensional Spaces
-
-##  The Core Challenge: The Curse of Dimensionality
-
-Applying the **Sobol Sensitivity Analysis** to models with a large number of parameters (e.g., 18 or more) is often computationally impractical. This is primarily due to the "Curse of Dimensionality," where the volume of the parameter space increases exponentially with the number of dimensions.
-
-###  Why Sobol is Inefficient for High-Dimensional Models?
-
-1. **Prohibitive Computational Cost:** 
-   The number of required samples for a reliable Sobol estimate is roughly estimated by $\text{N} = n(2k + 2)$, where $n$ is the number of parameters and $k$ is the number of sampling points per dimension. For 18 parameters, the total number of simulations grows drastically. If the underlying model is computationally expensive (e.g., complex CFD or high-fidelity physics simulations), executing these samples becomes infeasible.
-
-2. **Increased Estimation Variance:** 
-   In high-dimensional spaces, data points become sparse. This sparsity leads to high variance in the estimation of total-effect indices and interaction effects (second-order indices), rendering the results statistically unreliable or "noisy."
-
----
-
-##  Recommended Strategies & Alternatives
-
-To handle models with a high parameter count, the following strategies are recommended:
-
-### 1. Initial Screening via the Morris Method
-Instead of jumping directly into Sobol, use the **Morris Method**. This is a "global-local" sensitivity approach (One-Step-at-a-Time) designed to identify **insignificant parameters** with very low computational overhead.
-- **Objective:** Reduce the parameter space from 18 variables down to a manageable few (e.g., 5-6 key drivers).
-
-### 2. Surrogate Modeling (Metamodeling)
-Rather than querying the original "heavy" model, build a fast-to-evaluate approximation:
-- **Recommended Methods:** 
-  - $\text{Kriging / Gaussian Process Regression}$
-  - $\text{Polynomial Chaos Expansion (PCE)}$
-- **Advantage:** Once the surrogate model is trained, Sobol indices can be computed using millions of samples in seconds, as the surrogate replaces the expensive simulation.
-
-### 3. The Optimal Hybrid Pipeline
-For complex, high-dimensional models, the most efficient workflow is:
-$$\text{Morris Method} \rightarrow \text{Parameter Reduction} \rightarrow \text{Surrogate Model} \rightarrow \text{Sobol Analysis}$$
-
----
-
-##  Final Conclusion
-Executing a direct Sobol analysis on 18 parameters is generally **inefficient and computationally impractical**. The optimal approach is to utilize **initial screening** to prune the parameter space, followed by the implementation of a **surrogate model** for the final sensitivity quantification.
-
-
-
 ## Repository Contents
 
 - `UPDSF_v4.4.py` — Main simulation engine
