@@ -11,7 +11,7 @@ Environment: 🐍 Python 3.8+
 
 > **Note on File Management**
 > 
-> To simplify the page layout and improve readability, some deleted files have been removed from the current view. However, they remain fully accessible and visible within the **History** section.
+> To simplify the page layout (due to the high volume of data) and improve readability, some deleted files have been removed from the current view. However, they remain fully accessible and visible within the **History** section.
 
 ## 📑 Zenodo Archive & Digital Object Identifiers (DOIs)
 To ensure full transparency and reproducibility, the computational data and various versions of this framework are archived on Zenodo.
