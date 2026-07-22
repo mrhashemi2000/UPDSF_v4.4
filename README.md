@@ -45,6 +45,13 @@ UPDSF_v4.4 is a high-fidelity computational engine designed to model the chemica
 
 Unlike theoretical models, v4.4 is strictly empirical, utilizing kinetic parameters, activation energies ($E_a$), and half-lives derived exclusively from peer-reviewed prebiotic chemistry literature.
 
+UPDSF v4.4 is a stochastic kinetic Monte Carlo simulation framework that models the competition between **Uracil (U)** and **Thymine (T)** in various prebiotic environments. 
+
+This model was developed to quantitatively investigate the environmental selection mechanisms that may have favored thymine in the transition from RNA to DNA-based heredity.
+
+## **Manuscript**: "Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model"  
+## **Journal**: *International Journal of Astrobiology* (Submitted - IJA-2026-0085)
+
 DESCRIPTION:
     A high-fidelity simulation engine designed to model the chemical selection 
     of DNA nucleotides under prebiotic conditions. This framework uses ONLY 
