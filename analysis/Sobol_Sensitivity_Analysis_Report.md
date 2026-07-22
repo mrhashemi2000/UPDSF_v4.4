@@ -1,6 +1,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 # Expanded_Analysis_3
-# Sobol Sensitivity Analysis Report - Polymer/DNA Degradation Parameters# **Supporting Manuscript IJA-2026-0085**
+# Sobol Sensitivity Analysis Report - Polymer/DNA Degradation Parameters# 
+**Supporting Manuscript IJA-2026-0085**
 
 **Date**: July 22, 2026  
 **Conditions**: Temperature = 68.0°C, pH = 7.5, Polymer length = 100 bases
