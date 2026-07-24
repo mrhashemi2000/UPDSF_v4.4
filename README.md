@@ -41,7 +41,10 @@ To ensure full transparency and reproducibility, the computational data and vari
 
 
 ## Overview
-UPDSF_v4.4 is a high-fidelity computational engine designed to model the chemical selection and evolutionary dominance of DNA nucleotides (specifically Thymine) under prebiotic conditions. Developed by Seyed Mohammad Reza Hashemi, this framework operates under the Matter World Hypothesis (MWH) and represents a case study in Intelligence-Augmented (IA) Science.This version is Lipid Membrane added.
+
+
+
+#### UPDSF_v4.4 is a high-fidelity computational engine designed to model the chemical selection and evolutionary dominance of DNA nucleotides (specifically Thymine) under prebiotic conditions. Developed by Seyed Mohammad Reza Hashemi, this framework operates under the Matter World Hypothesis (MWH) and represents a case study in Intelligence-Augmented (IA) Science.This version is Lipid Membrane added.
 
 Unlike theoretical models, v4.4 is strictly empirical, utilizing kinetic parameters, activation energies ($E_a$), and half-lives derived exclusively from peer-reviewed prebiotic chemistry literature.
 
@@ -52,48 +55,100 @@ This model was developed to quantitatively investigate the environmental selecti
 ## **Manuscript**: "Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model"  
 ## **Journal**: *International Journal of Astrobiology* (Submitted - IJA-2026-0085)
 
-DESCRIPTION:
+#### DESCRIPTION:
+
     A high-fidelity simulation engine designed to model the chemical selection 
     of DNA nucleotides under prebiotic conditions. This framework uses ONLY 
     experimentally-verified parameters from peer-reviewed literature.
 
-NEW FEATURES v4.4:
+#### NEW FEATURES v4.4:
+
     - Strictly Empirical Parameters: All values from published papers
+    
     - Literature-Based Calibration: Lindahl (1993), Shapiro (1999), Cleaves (2010)
+    
     - Experimentally Verified Half-lives: RNA (hours) vs DNA (days) at 90°C
+    
     - Validated Deamination: 36x higher for Cytosine (Shen et al.)
+    
     - Verified UV Resistance: 3-4x for Thymine (Ravanat, Cadet)
+    
     - Lipid Membrane Integration: Prebiotic vesicle protection (Deamer, Szostak)
 
-CORE FEATURES:
+#### CORE FEATURES:
+
     - 2D Sensitivity Analysis: Multi-parameter optimization (Temp × pH).
+    
     - Empirically-Calibrated Kinetics: Literature-based parameters.
+    
     - UV Damage: Experimentally verified photostability ratios.
+    
     - Long Polymer Physics: Persistence length and conformational dynamics.
+    
     - Langevin Dynamics: Brownian forces and thermal fluctuations.
+    
     - Template-Directed Polymerization: Base-pairing fidelity.
+    
     - 4-Base System: U, T, C, A with cytosine deamination.
+    
     - Lipid Membrane: Prebiotic vesicle formation and protection.
+    
     - Data Export: JSON and CSV output for further analysis.
 
 
 ###  Key Updates in v4.4
+
 - Strictly Empirical Parameters: All values sourced from published experimental data.
+  
 - Literature-Based Calibration: Based on Lindahl (1993), Shapiro (1999), and Cleaves (2010).
+  
 - Verified Half-lives: Comparative analysis of RNA (hours) vs DNA (days) at 90°C.
+  
 - Validated Deamination: Incorporating 36x higher rates for Cytosine (Shen et al.).
+  
 - Verified UV Resistance: 3-4x stability for Thymine (Ravanat, Cadet).
+  
 - Lipid Membrane Integration: Modeling prebiotic vesicle protection (Deamer, Szostak).
+  
 
 ###  Core Features
+
 - 2D Sensitivity Analysis: Multi-parameter optimization (Temperature $\times$ pH).
+  
 - Empirically-Calibrated Kinetics: Literature-based kinetic constants.
+  
 - UV Damage Modeling: Experimentally verified photostability ratios.
+  
 - Polymer Physics: Integration of persistence length and conformational dynamics.
+  
 - Langevin Dynamics: Modeling Brownian forces and thermal fluctuations.
+  
 - Template-Directed Polymerization: High-fidelity base-pairing simulations.
+  
 - 4-Base System: U, T, C, A with detailed cytosine deamination pathways.
+  
 - Data Export: Robust output in JSON and CSV formats for external analysis.
+
+## Sobol Global Sensitivity Analysis
+
+Two independent Sobol sensitivity analyses were performed to evaluate parameter importance in UPDSF v4.4:
+
+- **N = 5,000 samples** (~160,000 total simulations)
+  
+- **N = 10,000 samples** (~320,000 total simulations)
+
+Key Findings (Consistent across both runs)
+- **Most influential parameter**: `A_U` (pre-exponential factor for Uracil hydrolysis) — dominant driver of thymine enrichment.
+ 
+- **Second**: `base_catalysis_factor` — strong interaction effects.
+  
+- **Third**: `A_C` (Cytosine-related).
+  
+- Lipid protection and clay surface effects show moderate but significant influence.
+
+**Conclusion**: Results are highly robust and confirm that **uracil degradation kinetics** and **pH-dependent base catalysis** are the primary drivers of thymine selection under prebiotic conditions.
+
+Full report and plots: [`Sobol_2_Sensitivity_Analysis_Report.md`](Sobol_2_Sensitivity_Analysis_Report.md)
 
 ##  Installation & Setup
 
