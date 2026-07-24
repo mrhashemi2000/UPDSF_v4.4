@@ -148,7 +148,21 @@ Key Findings (Consistent across both runs)
 
 **Conclusion**: Results are highly robust and confirm that **uracil degradation kinetics** and **pH-dependent base catalysis** are the primary drivers of thymine selection under prebiotic conditions.
 
-**[📄 Full Sobol Report & Plots](analysis/analysis/Sobol_2_Sensitivity_Analysis_Report.md)**
+
+
+## Analysis Timeline & Versioning
+
+To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below:
+
+- Initial Manuscript Submission: July 9, 2026 (Manuscript ID: IJA-2026-0085)
+- Complementary Sensitivity Analysis: July 23, 2026
+- Purpose: This post-submission analysis was conducted to further validate the robustness of the model parameters and strengthen the primary findings.
+- Computational Details: Sobol sensitivity analyses were performed using sample sizes of $N=5,000$ and $N=10,000$.
+
+📂 Results Access:
+The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report & Plots](analysis/analysis/Sobol_2_Sensitivity_Analysis_Report.md)**
+.
+```
 
 ##  Installation & Setup
 
