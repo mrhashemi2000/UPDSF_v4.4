@@ -55,11 +55,13 @@ This model was developed to quantitatively investigate the environmental selecti
 ## **Manuscript**: "Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model"  
 ## **Journal**: *International Journal of Astrobiology* (Submitted - IJA-2026-0085)
 
+
 #### DESCRIPTION:
 
     A high-fidelity simulation engine designed to model the chemical selection 
     of DNA nucleotides under prebiotic conditions. This framework uses ONLY 
     experimentally-verified parameters from peer-reviewed literature.
+
 
 #### NEW FEATURES v4.4:
 
@@ -74,6 +76,7 @@ This model was developed to quantitatively investigate the environmental selecti
     - Verified UV Resistance: 3-4x for Thymine (Ravanat, Cadet)
     
     - Lipid Membrane Integration: Prebiotic vesicle protection (Deamer, Szostak)
+
 
 #### CORE FEATURES:
 
@@ -129,6 +132,7 @@ This model was developed to quantitatively investigate the environmental selecti
   
 - Data Export: Robust output in JSON and CSV formats for external analysis.
 
+
 ## Sobol Global Sensitivity Analysis
 
 Two independent Sobol sensitivity analyses were performed to evaluate parameter importance in UPDSF v4.4:
@@ -151,6 +155,10 @@ Key Findings (Consistent across both runs)
 
 
 ## Analysis Timeline & Versioning
+A complementary Sobol sensitivity analysis was subsequently performed to further validate the robustness of the model parameters.
+
+📂 Results Access:
+The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report & Plots](analysis/analysis/Sobol_2_Sensitivity_Analysis_Report.md)**
 
 To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below:
 
@@ -159,10 +167,7 @@ To ensure full transparency and reproducibility, the timeline of the study's com
 - Purpose: This post-submission analysis was conducted to further validate the robustness of the model parameters and strengthen the primary findings.
 - Computational Details: Sobol sensitivity analyses were performed using sample sizes of $N=5,000$ and $N=10,000$.
 
-📂 Results Access:
-The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report & Plots](analysis/analysis/Sobol_2_Sensitivity_Analysis_Report.md)**
-.
-```
+
 
 ##  Installation & Setup
 
