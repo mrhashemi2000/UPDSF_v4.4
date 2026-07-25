@@ -106,6 +106,6 @@ Thus the ranking and interaction structure reported above are numerically robust
 | Strong non-additive interactions           | Environment-dependent, non-linear selection filters                 | Very High             |
 
 **Overall Conclusion**  
-The Sobol sensitivity analysis performed at T = 68 °C and pH = 7.5 provides quantitative, parameter-level support for the central thesis of the manuscript: under intermediate-to-high temperature prebiotic conditions, thymine selection is driven primarily by differences in molecular stability (\(\tau_{\text{stable}}\)), especially the hydrolytic degradation rate of uracil, rather than by polymerization kinetics. The observed importance ranking and interaction structure are fully consistent with the Stability-Kinetics Ratio framework and the environmental case studies presented in the paper.
+The Sobol sensitivity analysis performed at T = 68 °C and pH = 7.5 provides quantitative, parameter-level support for the central thesis of the manuscript: under intermediate-to-high temperature prebiotic conditions, thymine selection is driven primarily by differences in molecular stability  $(\tau_{\text{stable}})$, especially the hydrolytic degradation rate of uracil, rather than by polymerization kinetics. The observed importance ranking and interaction structure are fully consistent with the Stability-Kinetics Ratio framework and the environmental case studies presented in the paper.
 
 ---
