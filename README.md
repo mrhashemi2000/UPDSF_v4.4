@@ -163,11 +163,11 @@ The detailed reports and raw data for the Sobol analysis can be found in the **[
 
 📂 **Results 2 Access**: 
 
-The detailed reports and raw data for the Sobol analysis can be found in the [📄 Full Sobol Report & Plots](analysis/analysis/analysis/analysis/Sobol_2_Sensitivity_Analysis_2_Report.md)
+The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 2 & Plots](analysis/analysis/analysis/analysis/Sobol_2_Sensitivity_Analysis_2_Report.md)**
 
 📂 **Results 3 Access**: 
 
-The detailed reports and raw data for the Sobol analysis can be found in the [📄 Full Sobol Report & Manuscript_ID_IJA-2026-0085_Findings ](analysis/analysis/analysis/analysis/Alignment_of_Sobol_Sensitivity_Results_with_the_UPDSF_v4.4_Manuscript_ID_IJA-2026-0085_Findings.md)
+The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 3 & Manuscript_ID_IJA-2026-0085_Findings ](analysis/analysis/analysis/analysis/Alignment_of_Sobol_Sensitivity_Results_with_the_UPDSF_v4.4_Manuscript_ID_IJA-2026-0085_Findings.md)**
 
 
 **To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below**:
