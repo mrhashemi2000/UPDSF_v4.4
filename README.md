@@ -157,11 +157,20 @@ Key Findings (Consistent across both runs)
 ## Analysis Timeline & Versioning
 A complementary Sobol sensitivity analysis was subsequently performed to further validate the robustness of the model parameters.
 
-📂 Results Access:
+📂 **Results Access**:
+
 The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report & Plots](analysis/analysis/Sobol_2_Sensitivity_Analysis_Report.md)**
 
-📂 **Results 2 Access**: The detailed reports and raw data for the Sobol analysis can be found in the [📄 Full Sobol Report & Plots](analysis/analysis/analysis/analysis/Sobol_2_Sensitivity_Analysis_2_Report.md)
-To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below:
+📂 **Results 2 Access**: 
+
+The detailed reports and raw data for the Sobol analysis can be found in the [📄 Full Sobol Report & Plots](analysis/analysis/analysis/analysis/Sobol_2_Sensitivity_Analysis_2_Report.md)
+
+📂 **Results 3 Access**: 
+
+The detailed reports and raw data for the Sobol analysis can be found in the [📄 Full Sobol Report & Manuscript_ID_IJA-2026-0085_Findings ](analysis/analysis/analysis/analysis/Alignment_of_Sobol_Sensitivity_Results_with_the_UPDSF_v4.4_Manuscript_ID_IJA-2026-0085_Findings.md)
+
+
+**To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below**:
 
 - Initial Manuscript Submission: July 9, 2026 (Manuscript ID: IJA-2026-0085)
 - Complementary Sensitivity Analysis: July 23, 2026
