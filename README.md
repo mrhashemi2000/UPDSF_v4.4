@@ -160,6 +160,7 @@ A complementary Sobol sensitivity analysis was subsequently performed to further
 📂 Results Access:
 The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report & Plots](analysis/analysis/Sobol_2_Sensitivity_Analysis_Report.md)**
 
+📂 **Results 2 Access**: The detailed reports and raw data for the Sobol analysis can be found in the [📄 Full Sobol Report & Plots](analysis/analysis/analysis/analysis/Sobol_2_Sensitivity_Analysis_2_Report.md)
 To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below:
 
 - Initial Manuscript Submission: July 9, 2026 (Manuscript ID: IJA-2026-0085)
