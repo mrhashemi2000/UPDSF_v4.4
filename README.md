@@ -168,7 +168,7 @@ To ensure full transparency and reproducibility, the timeline of the study's com
 - Complementary 2 Sensitivity Analysis: July 25, 2026
 - Purpose: This post-submission analysis was conducted to further validate the robustness of the model parameters and strengthen the primary findings.
 - Computational Details: Sobol sensitivity analyses were performed using sample sizes of $N=5,000$ and $N=10,000$.
-- Computational 2 Details: Sobol sensitivity analyses were performed using sample sizes of $N=5,000$ which provides adequate convergence.Increasing to N = 10,000 is not necessary.
+- Computational 2 Details: Sobol sensitivity analyses were performed using sample sizes of $N=5,000$ which provides adequate convergence. Increasing to N = 10,000 is not necessary.
 
 ---
 
