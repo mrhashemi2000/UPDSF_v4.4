@@ -8,6 +8,17 @@ Environment: 🐍 Python 3.8+
 
 ## ORCID: 0009-0002-0645-5180
 
+## Repository Status
+
+**Software Version:** UPDSF v4.4
+
+**Associated Manuscript:** IJA-2026-0085
+
+**Repository Status:** Stable Research Release
+
+**License:** CC BY-NC-ND
+
+**Last Scientific Update:** July 2026
 
 > **Note on File Management**
 > 
