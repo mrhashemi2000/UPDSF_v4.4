@@ -225,8 +225,11 @@ The detailed reports and raw data for the Sobol analysis can be found in the **[
 A potential source of confusion is the distinction between **environmental variables** discussed in the manuscript and the **internal computational parameters** analyzed in the Sobol sensitivity study.
 
 Parameters such as `A_U`, `A_C`, activation energies, and the base catalysis factor are **internal parameters of the computational model**, rather than independent environmental variables investigated by the study.
+These internal parameters define the kinetic behavior of the simulation engine. Environmental variables—including temperature, pH, UV exposure, lipid protection, wet–dry cycling, and hydrothermal conditions—act by modifying these kinetic parameters during Monte Carlo simulations.
 
-Accordingly, the manuscript reports its scientific findings at the **environmental level**, including:
+Accordingly, the manuscript reports its scientific findings at the **environmental level**, whereas the Sobol analysis evaluates the sensitivity of the **underlying computational parameters** that generate those environmental responses.
+
+The manuscript reports its scientific findings at the **environmental level**, including:
 
 -  Temperature
 -  pH
