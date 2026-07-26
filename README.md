@@ -106,35 +106,6 @@ Therefore, the Sobol results should be regarded as an **independent computationa
 
 This organization follows the principles of **Open Science**, ensuring complete transparency, reproducibility, and independent verification of all computational results while keeping the manuscript focused on its primary scientific narrative.
 
-### Why Are Parameters Such as `A_U` and `A_C` Not Explicitly Defined in the Manuscript?
-
-A potential source of confusion is the distinction between **environmental variables** discussed in the manuscript and the **internal computational parameters** analyzed in the Sobol sensitivity study.
-
-Parameters such as `A_U`, `A_C`, activation energies, and the base catalysis factor are **internal parameters of the computational model**, rather than independent environmental variables investigated by the study.
-
-Accordingly, the manuscript reports its scientific findings at the **environmental level**, including:
-
--  Temperature
--  pH
--  UV radiation
--  Lipid membrane protection
--  Wet–dry cycling
--  Hydrothermal environments
-
-In contrast, the Global Sobol Sensitivity Analysis evaluates how the **internal model parameters** influence simulation outputs and quantifies their contributions to model uncertainty.
-
-Consequently, the Sobol analysis should not be interpreted as introducing new environmental drivers. Instead, it provides an **independent computational validation** demonstrating that the dominant internal parameters correspond to the same environmental mechanisms and theoretical framework presented in the manuscript.
-
-This distinction reflects two complementary levels of analysis:
-
-| Manuscript | Sobol Analysis |
-|------------|----------------|
-| Environmental mechanisms | Internal computational parameters |
-| Scientific interpretation | Model validation |
-| Primary Monte Carlo results | Global sensitivity assessment |
-| Environmental selection | Parameter contribution and interaction |
-
-Thus, the Sobol analysis validates the robustness of the Monte Carlo model **at the parameter level**, whereas the manuscript presents the biological and environmental interpretation **at the system level**.
 
 #### DESCRIPTION:
 
@@ -249,8 +220,38 @@ The detailed reports and raw data for the Sobol analysis can be found in the **[
 
 The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 3 & Manuscript_ID_IJA-2026-0085_Findings ](analysis/analysis/analysis/analysis/Alignment_of_Sobol_Sensitivity_Results_with_the_UPDSF_v4.4_Manuscript_ID_IJA-2026-0085_Findings.md)**
 
+### Why Are Parameters Such as `A_U` and `A_C` Not Explicitly Defined in the Manuscript?
 
-**To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below**:
+A potential source of confusion is the distinction between **environmental variables** discussed in the manuscript and the **internal computational parameters** analyzed in the Sobol sensitivity study.
+
+Parameters such as `A_U`, `A_C`, activation energies, and the base catalysis factor are **internal parameters of the computational model**, rather than independent environmental variables investigated by the study.
+
+Accordingly, the manuscript reports its scientific findings at the **environmental level**, including:
+
+-  Temperature
+-  pH
+-  UV radiation
+-  Lipid membrane protection
+-  Wet–dry cycling
+-  Hydrothermal environments
+
+In contrast, the Global Sobol Sensitivity Analysis evaluates how the **internal model parameters** influence simulation outputs and quantifies their contributions to model uncertainty.
+
+Consequently, the Sobol analysis should not be interpreted as introducing new environmental drivers. Instead, it provides an **independent computational validation** demonstrating that the dominant internal parameters correspond to the same environmental mechanisms and theoretical framework presented in the manuscript.
+
+This distinction reflects two complementary levels of analysis:
+
+| Manuscript | Sobol Analysis |
+|------------|----------------|
+| Environmental mechanisms | Internal computational parameters |
+| Scientific interpretation | Model validation |
+| Primary Monte Carlo results | Global sensitivity assessment |
+| Environmental selection | Parameter contribution and interaction |
+
+Thus, the Sobol analysis validates the robustness of the Monte Carlo model **at the parameter level**, whereas the manuscript presents the biological and environmental interpretation **at the system level**.
+
+
+## To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below:
 
 - Initial Manuscript Submission: July 9, 2026 (Manuscript ID: IJA-2026-0085)
 - Complementary Sensitivity Analysis: July 23, 2026
