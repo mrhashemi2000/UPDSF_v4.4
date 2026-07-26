@@ -19,25 +19,24 @@ N = 5000 (160,000 total evaluations) | T = 68.0 °C | pH = 7.5 | Polymer length 
 
 The manuscript defines molecular fitness via the **Stability-Kinetics Ratio**:
 
-\[
-S_r = \frac{\tau_{\text{stable}}}{\kappa_{\text{poly}}}
-\]
+$$ S_r = \frac{\tau_{\text{stable}}}{\kappa_{\text{poly}}} $$
+
 
 where:
-- \(\tau_{\text{stable}}\) = half-life under dominant degradation pathways (hydrolysis, deamination, UV damage)
-- \(\kappa_{\text{poly}}\) = effective polymerization rate constant
+- $$\(\tau_{\text{stable}}\)$$ = half-life under dominant degradation pathways (hydrolysis, deamination, UV damage)
+- $$\(\kappa_{\text{poly}}\)$$ = effective polymerization rate constant
 
 ### Sobol Mapping to \(S_r\)
 
 | Sobol Rank | Parameter                  | ST     | Primary Influence on \(S_r\)              | Manuscript Interpretation                          |
 |------------|----------------------------|--------|-------------------------------------------|----------------------------------------------------|
-| 1          | **A_U**                    | 0.7751 | Controls \(\tau_{\text{stable}}\) of U    | Dominant driver of the T/U stability differential |
+| 1          | **A_U**                    | 0.7751 | Controls $$\(\tau_{\text{stable}}\)$$ of U    | Dominant driver of the T/U stability differential |
 | 2          | **base_catalysis_factor**  | 0.6718 | Amplifies all degradation rates           | Strong modulator of hydrolytic and deamination pathways |
 | 3          | **A_C**                    | 0.5434 | Controls cytosine deamination (C → U)     | Indirect reduction of thymine enrichment via U production |
 | —          | deamination_ratio          | —      | Scales C → U conversion (literature 36×)  | Explicitly cited (Shen et al., 1994)               |
 
 **Key Insight**  
-Under the tested conditions (68 °C, pH 7.5), output variance (thymine enrichment) is overwhelmingly controlled by parameters that govern \(\tau_{\text{stable}}\), not \(\kappa_{\text{poly}}\). This quantitatively supports the manuscript’s central claim that thymine is preferentially selected due to superior resistance to hydrolysis, deamination, and photodimerization.
+Under the tested conditions (68 °C, pH 7.5), output variance (thymine enrichment) is overwhelmingly controlled by parameters that govern $$\(\tau_{\text{stable}}\)$$, not $$\(\kappa_{\text{poly}}\)$$. This quantitatively supports the manuscript’s central claim that thymine is preferentially selected due to superior resistance to hydrolysis, deamination, and photodimerization.
 
 ---
 
@@ -47,7 +46,7 @@ The Sobol analysis was performed at conditions intermediate between the manuscri
 
 | Manuscript Environment              | Key Conditions          | Reported Outcome                          | Sobol Alignment (68 °C, pH 7.5)                          |
 |-------------------------------------|-------------------------|-------------------------------------------|----------------------------------------------------------|
-| Hydrothermal Vents                  | 80–100 °C              | \(\tau_T / \tau_U \approx 124\)           | A_U and base_catalysis_factor dominate → thermal-hydrolytic selection confirmed |
+| Hydrothermal Vents                  | 80–100 °C              | $$\(\tau_T / \tau_U \approx 124\)$$           | A_U and base_catalysis_factor dominate → thermal-hydrolytic selection confirmed |
 | Tidal Pools + UV Exposure           | Surface, high UV       | Thymine preferred (photochemical shield)  | UV_resistance_T shows moderate influence; hydrolysis (A_U) remains primary |
 | Wet-Dry Cycles                      | Mineral surfaces       | Ratchet effect favoring thymine           | clay_protection exhibits moderate ST → consistent with surface stabilization |
 | Cryogenic Eutectic + Lipid          | −20 °C + vesicles      | Kinetic advantage for uracil              | Outside Sobol temperature range; lipid_protection shows only moderate effect |
