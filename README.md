@@ -55,6 +55,86 @@ This model was developed to quantitatively investigate the environmental selecti
 ## **Manuscript**: "Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model"  
 ## **Journal**: *International Journal of Astrobiology* (Submitted - IJA-2026-0085)
 
+##  Computational Framework
+
+### Primary Simulation Engine
+
+`UPDSF_v4.4.py` is the **primary Monte Carlo simulation engine** used to generate all scientific results reported in the manuscript.
+
+The model simulates the environmental selection of thymine over uracil under a range of prebiotic conditions, including:
+
+-  Temperature
+-  pH
+-  UV radiation
+-  Lipid membrane protection
+-  Clay mineral protection
+-  Wet–dry cycling
+-  Hydrothermal environments
+
+All figures, statistical analyses, and conclusions presented in the manuscript are derived directly from this simulation framework.
+
+---
+
+### Complementary Global Sensitivity Analysis
+
+The repository also contains an independent **Global Sobol Sensitivity Analysis**, which serves as a **complementary validation** of the Monte Carlo model.
+
+Its purpose is **not** to generate new scientific conclusions, but to quantitatively evaluate the robustness of the model by identifying the internal parameters that contribute most to output uncertainty.
+
+The Sobol analysis demonstrates that the dominant parameters correspond to the same mechanistic processes proposed in the manuscript, particularly:
+
+- the greater instability of uracil,
+- base-catalyzed degradation,
+- and the stability–kinetics relationship described by the manuscript's theoretical framework.
+
+Importantly, the Sobol analysis validates the computational model at the **parameter level**, whereas the manuscript presents its scientific findings at the **environmental level** (temperature, pH, UV exposure, lipid protection, wet–dry cycles, and hydrothermal settings).
+
+Therefore, the Sobol results should be regarded as an **independent computational validation** of the Monte Carlo model rather than as a separate source of scientific conclusions.
+
+---
+
+### Relationship Between the Manuscript and This Repository
+
+| Manuscript | Repository |
+|------------|------------|
+| Scientific hypothesis | Monte Carlo implementation |
+| Environmental analyses | Source code and reproducibility |
+| Main results | Raw simulation outputs |
+| Figures and tables | Figure-generation scripts |
+| Supplementary information | Validation reports |
+| — | Global Sobol sensitivity analysis (complementary validation) |
+
+This organization follows the principles of **Open Science**, ensuring complete transparency, reproducibility, and independent verification of all computational results while keeping the manuscript focused on its primary scientific narrative.
+
+### Why Are Parameters Such as `A_U` and `A_C` Not Explicitly Defined in the Manuscript?
+
+A potential source of confusion is the distinction between **environmental variables** discussed in the manuscript and the **internal computational parameters** analyzed in the Sobol sensitivity study.
+
+Parameters such as `A_U`, `A_C`, activation energies, and the base catalysis factor are **internal parameters of the computational model**, rather than independent environmental variables investigated by the study.
+
+Accordingly, the manuscript reports its scientific findings at the **environmental level**, including:
+
+-  Temperature
+-  pH
+-  UV radiation
+-  Lipid membrane protection
+-  Wet–dry cycling
+-  Hydrothermal environments
+
+In contrast, the Global Sobol Sensitivity Analysis evaluates how the **internal model parameters** influence simulation outputs and quantifies their contributions to model uncertainty.
+
+Consequently, the Sobol analysis should not be interpreted as introducing new environmental drivers. Instead, it provides an **independent computational validation** demonstrating that the dominant internal parameters correspond to the same environmental mechanisms and theoretical framework presented in the manuscript.
+
+This distinction reflects two complementary levels of analysis:
+
+| Manuscript | Sobol Analysis |
+|------------|----------------|
+| Environmental mechanisms | Internal computational parameters |
+| Scientific interpretation | Model validation |
+| Primary Monte Carlo results | Global sensitivity assessment |
+| Environmental selection | Parameter contribution and interaction |
+
+Thus, the Sobol analysis validates the robustness of the Monte Carlo model **at the parameter level**, whereas the manuscript presents the biological and environmental interpretation **at the system level**.
 
 #### DESCRIPTION:
 
