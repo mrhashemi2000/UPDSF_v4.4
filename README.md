@@ -29,6 +29,8 @@ To ensure full transparency and reproducibility, the computational data and vari
 
 | Resource / DOI | Link |
 | :--- | :--- |
+| 📄 Zenodo 21270652 | [Click to Open](https://doi.org/10.5281/zenodo.21270652) |
+| 📄 Zenodo 21224889 | [Click to Open](https://doi.org/10.5281/zenodo.21224889) |
 | 📄 Zenodo 17273763 | [Click to Open](https://doi.org/10.5281/zenodo.17273763) |
 | 📄 Zenodo 18137476 | [Click to Open](https://doi.org/10.5281/zenodo.18137476) |
 | 📄 Zenodo 18092867 | [Click to Open](https://doi.org/10.5281/zenodo.18092867) |
