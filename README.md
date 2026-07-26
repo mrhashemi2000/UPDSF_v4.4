@@ -39,6 +39,17 @@ To ensure full transparency and reproducibility, the computational data and vari
 
 ---
 
+## 🌍 Scientific Motivation
+
+This study addresses **one of the fundamental questions in origin-of-life (OoL) research**:
+
+> **Why did DNA evolve to use thymine rather than uracil as its canonical pyrimidine base?**
+
+Rather than proposing a definitive historical reconstruction, this work develops and quantitatively tests a **mechanistic hypothesis** in which **prebiotic environmental selection**, acting through **molecular stability** and **reaction kinetics**, could have biased this transition **before the emergence of enzymatic evolution**.
+
+Using the **UPDSF v4.4 Monte Carlo framework**, the study evaluates how environmental factors—including temperature, pH, ultraviolet radiation, lipid membrane protection, wet–dry cycling, and hydrothermal conditions—collectively influence the relative persistence and evolutionary selection of thymine over uracil.
+
+The accompanying open-source repository provides the complete computational framework, datasets, reproducibility scripts, and complementary validation analyses supporting this hypothesis in accordance with the principles of **Open Science**.
 
 ## Overview
 
