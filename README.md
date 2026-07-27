@@ -280,6 +280,14 @@ This distinction reflects two complementary levels of analysis:
 Thus, the Sobol analysis validates the robustness of the Monte Carlo model **at the parameter level**, whereas the manuscript presents the biological and environmental interpretation **at the system level**.
 
 # Monte Carlo Variance Decomposition in UPDSF v4.4
+
+## Relation to the Manuscript’s Theoretical Framework
+
+The Stability-Kinetics Ratio defined in the manuscript is:
+
+$S_r = \frac{\tau_{\text{stable}}}{\kappa_{\text{poly}}}$
+
+The Monte Carlo variance decomposition shows that, under the tested conditions, the dominant contribution to variance in enrichment originates from parameters controlling $\tau_{\text{stable}}$ (especially those governing uracil lifetime). This provides a direct quantitative link between the global sensitivity results and the manuscript’s central claim that thymine is preferentially selected due to superior molecular stability.
 #### The variance decomposition confirms that the model's behavior is consistent with its kinetic implementation in `UPDSF_v4.4.py` and supports the scientific narrative of environmental selection in prebiotic chemical evolution.
 
 📂 **Results 4 Access:**
