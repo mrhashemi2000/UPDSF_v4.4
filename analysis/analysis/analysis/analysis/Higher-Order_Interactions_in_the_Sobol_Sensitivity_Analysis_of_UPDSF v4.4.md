@@ -95,12 +95,3 @@ The presence of strong higher-order interactions is **not a model deficiency**. 
 Higher-order interactions demonstrate that thymine selection emerges from an interconnected kinetic network rather than from isolated parameter effects. This feature increases the chemical realism of the model and provides additional quantitative support for the Stability-Kinetics Ratio framework presented in the manuscript.
 
 ---
-
-**Related Files**
-- `sobol_degradation_analysis.png` – Full 12-panel diagnostic figure
-- `sobol_indices_*.json` – Numerical Sobol indices and confidence intervals
-- `Alignment_of_Sobol_..._Findings.md` – Mapping of Sobol results to manuscript claims
-
-**Reference**  
-UPDSF v4.4 – Strictly Empirical Parameters + Lipid Membrane Integration  
-DOI: [10.5281/zenodo.21224889](https://doi.org/10.5281/zenodo.21224889)
