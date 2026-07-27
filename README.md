@@ -244,6 +244,8 @@ The detailed reports and raw data for the Sobol analysis can be found in the **[
 
 The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 3 & Manuscript_ID_IJA-2026-0085_Findings ](analysis/analysis/analysis/analysis/Alignment_of_Sobol_Sensitivity_Results_with_the_UPDSF_v4.4_Manuscript_ID_IJA-2026-0085_Findings.md)**
 
+
+
 ### Why Are Parameters Such as `A_U` and `A_C` Not Explicitly Defined in the Manuscript?
 
 A potential source of confusion is the distinction between **environmental variables** discussed in the manuscript and the **internal computational parameters** analyzed in the Sobol sensitivity study.
@@ -277,6 +279,12 @@ This distinction reflects two complementary levels of analysis:
 
 Thus, the Sobol analysis validates the robustness of the Monte Carlo model **at the parameter level**, whereas the manuscript presents the biological and environmental interpretation **at the system level**.
 
+# Monte Carlo Variance Decomposition in UPDSF v4.4
+#### The variance decomposition confirms that the model's behavior is consistent with its kinetic implementation in `UPDSF_v4.4.py` and supports the scientific narrative of environmental selection in prebiotic chemical evolution.
+
+📂 **Results 4 Access:**
+
+The detailed reports and raw data for Monte Carlo Variance Decomposition can be found in the 📄 [Monte Carlo Variance Decomposition in UPDSF v4.4](analysis/analysis/analysis/analysis/Monte_Carlo_Variance_Decomposition_in_UPDSF_v4.4.md)
 
 ## To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below:
 
