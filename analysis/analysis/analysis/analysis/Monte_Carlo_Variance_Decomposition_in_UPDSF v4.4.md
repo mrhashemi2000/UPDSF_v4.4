@@ -9,7 +9,7 @@
 (International Journal of Astrobiology – Draft)
 # Monte Carlo Variance Decomposition in UPDSF v4.4
 
-Supporting Manuscript: IJA-2026-0085  
+## Supporting Manuscript: IJA-2026-0085  
 Analysis Conditions: $N = 5,000$ (160,000 total evaluations) | $T = 68.0$ °C | $\text{pH} = 7.5$ | Polymer length = 100 bases  
 
 
