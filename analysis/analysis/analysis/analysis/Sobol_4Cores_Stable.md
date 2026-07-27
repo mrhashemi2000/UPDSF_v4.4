@@ -6,7 +6,7 @@
 **Date**: July 25, 2026  
 
 
-# Sobol 2 Global Sensitivity Analysis 2 Report  
+# Sobol_4Cores_Stable  
 **UPDSF v4.4 – Degradation Parameters**  
 **N = 5000 | T = 68.0 °C | pH = 7.5 | Polymer Length = 100 bases**
 
