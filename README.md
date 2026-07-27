@@ -232,17 +232,17 @@ Key Findings (Consistent across both runs)
 ## Analysis Timeline & Versioning
 A complementary Sobol sensitivity analysis was subsequently performed to further validate the robustness of the model parameters.
 
-📂 **Sobol Global Sensitivity Analysis - UPDSF v4.4**:
+📂 **Global Sobol Sensitivity Report**:
 
 The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report & Plots](analysis/analysis/Sobol_2_Sensitivity_Analysis_Report.md)**
 
-📂 **Results 2 Access**: 
+📂 **Extended Sobol Validation**: 
 
-The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 2 & Plots](analysis/analysis/analysis/analysis/Sobol_2_Sensitivity_Analysis_2_Report.md)**
+The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 2 & Plots](analysis/analysis/analysis/analysis/Sobol_4Cores_Stable.md)**
 
-📂 **Results 3 Access**: 
+📂 **Sobol–Manuscript Alignment**: 
 
-The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 3 & Manuscript_ID_IJA-2026-0085_Findings ](analysis/analysis/analysis/analysis/Alignment_of_Sobol_Sensitivity_Results_with_the_UPDSF_v4.4_Manuscript_ID_IJA-2026-0085_Findings.md)**
+The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 3 & Manuscript_ID_IJA-2026-0085_Findings ](analysis/analysis/analysis/analysis/Alignment_of_Sobol_4Cores_Stable_with_the_UPDSF_v4.4_Manuscript_ID_IJA-2026-0085_Findings.md)**
 
 
 
@@ -290,7 +290,7 @@ $S_r = \frac{\tau_{\text{stable}}}{\kappa_{\text{poly}}}$
 The Monte Carlo variance decomposition shows that, under the tested conditions, the dominant contribution to variance in enrichment originates from parameters controlling $\tau_{\text{stable}}$ (especially those governing uracil lifetime). This provides a direct quantitative link between the global sensitivity results and the manuscript’s central claim that thymine is preferentially selected due to superior molecular stability.
 #### The variance decomposition confirms that the model's behavior is consistent with its kinetic implementation in `UPDSF_v4.4.py` and supports the scientific narrative of environmental selection in prebiotic chemical evolution.
 
-📂 **Results 4 Access:**
+📂 **Monte Carlo Variance Decomposition**
 
 The detailed reports and raw data for Monte Carlo Variance Decomposition can be found in the 📄 [Monte Carlo Variance Decomposition in UPDSF v4.4](analysis/analysis/analysis/analysis/Monte_Carlo_Variance_Decomposition_in_UPDSF_v4.4.md)
 
