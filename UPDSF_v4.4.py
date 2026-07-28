@@ -39,7 +39,7 @@ REFERENCES:
     - Szostak, J.W. (2010). Cold Spring Harb. Perspect. Biol., 2, a002246. (Protocells)
 
 AUTHOR: Seyed Mohammad Reza Hashemi (Reza Hashemi) Intelligence-Augmented (IA)
-VERSION: 4.4 with Strictly Empirical Parameters + Lipid Membrane . Parameters for stability and kinetics were derived from
+VERSION: 4.4 with Strictly Empirical(literature-based) Parameters + Lipid Membrane . Parameters for stability and kinetics were derived from
 literature values and adjusted for each environment. An iterative refinement process incorporating theoretical analysis and simulation feedback was employed to optimize
 parameters.
 License & Copyright
