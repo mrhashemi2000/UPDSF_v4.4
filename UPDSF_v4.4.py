@@ -40,7 +40,8 @@ REFERENCES:
 
 AUTHOR: Seyed Mohammad Reza Hashemi (Reza Hashemi) Intelligence-Augmented (IA)
 VERSION: 4.4 with Strictly Empirical Parameters + Lipid Membrane . Parameters for stability and kinetics were derived from
-literature values and adjusted for each environment. An iterative refinement process
+literature values and adjusted for each environment. An iterative refinement process incorporating theoretical analysis and simulation feedback was employed to optimize
+parameters.
 License & Copyright
 Copyright ©️ 2026 Seyed Mohammad Reza Hashemi  
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
