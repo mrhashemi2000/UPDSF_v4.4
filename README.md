@@ -134,9 +134,8 @@ This organization follows the principles of **Open Science**, ensuring complete 
 #### DESCRIPTION:
 
     A high-fidelity simulation engine designed to model the chemical selection 
-    of DNA nucleotides under prebiotic conditions. This framework uses ONLY 
-    experimentally-verified parameters from peer-reviewed literature.
-
+    of DNA nucleotides under prebiotic conditions. 
+> **Parameterization:** The computational framework is based exclusively on **peer-reviewed experimental literature**. Where direct experimental estimates are unavailable, parameters are calibrated within experimentally supported ranges and are explicitly identified as calibrated values.
 
 #### NEW FEATURES v4.4:
 
