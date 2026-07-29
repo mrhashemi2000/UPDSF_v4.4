@@ -58,7 +58,12 @@ Two parallel runs were performed:
 
 ## Key Observations from the Figure
 
-![Deamination Sensitivity Comparison](deamination_sensitivity_comparison.png)<img width="4439" height="3401" alt="deamination_sensitivity_comparison" src="https://github.com/user-attachments/assets/a9a0af24-0f2a-4039-9046-760cca0566f6" />
+
+<img width="4439" height="3401" alt="deamination_sensitivity_comparison" src="https://github.com/user-attachments/assets/a9a0af24-0f2a-4039-9046-760cca0566f6" />
+
+
+
+<img width="4439" height="3401" alt="deamination_sensitivity_comparison" src="https://github.com/user-attachments/assets/e0be4c4a-3104-475b-8877-19a18db160f1" />
 
 
 ### 1. DNA Accumulation
