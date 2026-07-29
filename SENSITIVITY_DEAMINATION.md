@@ -1,3 +1,14 @@
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+# Expanded_Analysis_9
+**Supporting Manuscript IJA-2026-0085**
+
+**Date**: July 29, 2026  
+
+**Manuscript**  
+*Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model*  
+(International Journal of Astrobiology – Draft)
+ 
+
 # Sensitivity Analysis: Effect of Cytosine Deamination on Thymine Selection  
 **UPDSF v4.4 – Unified Prebiotic DNA Selection Framework**
 
