@@ -293,6 +293,17 @@ The Monte Carlo variance decomposition shows that, under the tested conditions, 
 
 The detailed reports and raw data for Monte Carlo Variance Decomposition can be found in the 📄 [Monte Carlo Variance Decomposition in UPDSF v4.4](analysis/Monte_Carlo_Variance_Decomposition_in_UPDSF_v4.4.md)
 
+# Effect of Cytosine Deamination on Thymine Selection
+
+This report presents a controlled sensitivity test examining the influence of cytosine deamination on the primary outcome of the UPDSF v4.4 model — the chemical enrichment of thymine (T) relative to uracil (U) under prebiotic conditions.
+
+The test isolates the deamination process while keeping all other parameters identical, allowing a direct assessment of its contribution to the observed thymine selection.
+
+📂 **Effect of Cytosine Deamination on Thymine Selection**
+
+The detailed reports and raw data for Effect of Cytosine Deamination on Thymine Selection can be found in the 📄 [Effect of Cytosine Deamination on Thymine Selection](analysis/SENSITIVITY_DEAMINATION.md)
+
+
 ## To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below:
 
 - Initial Manuscript Submission: July 9, 2026 (Manuscript ID: IJA-2026-0085)
