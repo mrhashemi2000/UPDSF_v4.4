@@ -233,7 +233,7 @@ A complementary Sobol sensitivity analysis was subsequently performed to further
 
 📂 **Global Sobol Sensitivity Report**:
 
-The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report & Plots](analysis/analysis/Sobol_2_Sensitivity_Analysis_Report.md)**
+The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report & Plots](analysis/Sobol_2_Sensitivity_Analysis_Report.md)**
 
 📂 **Extended Sobol Validation**: 
 
