@@ -237,11 +237,11 @@ The detailed reports and raw data for the Sobol analysis can be found in the **[
 
 📂 **Extended Sobol Validation**: 
 
-The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 2 & Plots](analysis/analysis/analysis/analysis/Sobol_4Cores_Stable.md)**
+The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 2 & Plots](analysis/Sobol_4Cores_Stable.md)**
 
 📂 **Sobol–Manuscript Alignment**: 
 
-The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 3 & Manuscript_ID_IJA-2026-0085_Findings ](analysis/analysis/analysis/analysis/Alignment_of_Sobol_4Cores_Stable_with_the_UPDSF_v4.4_Manuscript_ID_IJA-2026-0085_Findings.md)**
+The detailed reports and raw data for the Sobol analysis can be found in the **[📄 Full Sobol Report 3 & Manuscript_ID_IJA-2026-0085_Findings ](analysis/Alignment_of_Sobol_4Cores_Stable_with_the_UPDSF_v4.4_Manuscript_ID_IJA-2026-0085_Findings.md)**
 
 
 
@@ -291,7 +291,7 @@ The Monte Carlo variance decomposition shows that, under the tested conditions, 
 
 📂 **Monte Carlo Variance Decomposition**
 
-The detailed reports and raw data for Monte Carlo Variance Decomposition can be found in the 📄 [Monte Carlo Variance Decomposition in UPDSF v4.4](analysis/analysis/analysis/analysis/Monte_Carlo_Variance_Decomposition_in_UPDSF_v4.4.md)
+The detailed reports and raw data for Monte Carlo Variance Decomposition can be found in the 📄 [Monte Carlo Variance Decomposition in UPDSF v4.4](analysis/Monte_Carlo_Variance_Decomposition_in_UPDSF_v4.4.md)
 
 ## To ensure full transparency and reproducibility, the timeline of the study's computational phases is provided below:
 
