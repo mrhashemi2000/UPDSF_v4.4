@@ -20,6 +20,10 @@ Environment: 🐍 Python 3.8+
 
 **Last Scientific Update:** July 2026
 
+<img width="1366" height="768" alt="تصویر صفحه 2026-07-29 203326" src="https://github.com/user-attachments/assets/b44d3a4c-95ca-4055-b814-8587362c3b7e" />
+
+
+
 > **Note on File Management**
 > 
 > To simplify the page layout (due to the high volume of data) and improve readability, some deleted files have been removed from the current view. However, they remain fully accessible and visible within the **History** section.
