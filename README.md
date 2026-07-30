@@ -115,6 +115,90 @@ Best wishes.
 Dr. Reza Hashemi
 Creator of Matter World Hypothesis 
 
+## Reza Hashemi <mrhashemi2000@gmail.com>
+Jul 30, 2026, 12:54 PM (14 hours ago)
+to WESTALL, IJA
+
+Subject: Request for Clarification Regarding the Editorial Handling of Manuscript IJA-2026-0085
+
+To: IJA Editorial Office (Mrs. Maria Estrada-Flórez)
+Cc: Dr. Frances Westall
+
+**Dear Dr. Rocco Mancinelli,**
+
+**Editor** 
+
+**International Journal of Astrobiology** 
+
+
+
+I hope this message finds you well.
+
+I am writing to respectfully request your clarification regarding the editorial handling of my manuscript IJA-2026-0085, entitled:
+
+"Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model."
+
+This letter is not an appeal against the editorial decision itself. I fully recognize and respect the Editor's discretion to decline a manuscript without external peer review. My concern instead relates to the consistency, transparency, and accuracy of the documented editorial process.
+
+Following the decision, I contacted the Editorial Office after observing several inconsistencies in the official record.
+
+The decision letter explicitly stated:
+
+"The comments of the reviewer(s) which led to this decision can be found at the bottom of this letter."
+
+However, no reviewer comments were attached.
+
+Subsequently, the Editorial Office informed me that this wording resulted from a default system template and that the manuscript had not been sent for external peer review.
+
+While I appreciate this clarification, it leaves an important procedural inconsistency unresolved.
+
+For a considerable period before the final decision, the ScholarOne system displayed the status:
+
+Awaiting Reviewer Selection
+
+To better understand the editorial workflow, I respectfully asked how this status related to a manuscript that was ultimately described as never having entered peer review.
+
+Dr.r Frances Westall kindly replied that the delay occurred because the manuscript had only recently appeared on her action list and that she had recently undergone surgery. I sincerely appreciate her response and wish her a complete recovery.
+
+However, although this explains the delay in processing, it does not explain the meaning of the ScholarOne status itself.
+
+Consequently, the official record currently contains several documented inconsistencies:
+
+the decision letter states that reviewer comments formed the basis of the decision;
+the Editorial Office subsequently confirmed that no peer review had taken place;
+ScholarOne displayed "Awaiting Reviewer Selection" for an extended period;
+the explanation subsequently provided addressed only the processing delay and not the workflow status;
+no editorial explanation was provided for the desk rejection.
+Individually, each of these issues might have a simple explanation. Collectively, however, they create uncertainty regarding the documented editorial history of the manuscript.
+
+I therefore respectfully request clarification of the following questions:
+
+What did the ScholarOne status "Awaiting Reviewer Selection" specifically represent in the editorial history of manuscript IJA-2026-0085?
+Was the manuscript ever assigned for reviewer selection?
+Were any reviewers identified, considered, or invited before the editorial decision was reached?
+Why did the official decision letter refer to reviewer comments if no peer review had taken place?
+What was the principal editorial basis for deciding that the manuscript should not proceed to external review?
+I respectfully emphasize that my purpose is not to dispute the editorial outcome, but to ensure that the official record of the editorial process is transparent, internally consistent, and accurately documented.
+
+Given the importance of transparency and procedural integrity in scholarly publishing, I would greatly appreciate your clarification.
+
+I would also be grateful if the Editorial Office could include this correspondence in the official record of manuscript IJA-2026-0085.
+
+Thank you for your time and consideration.
+
+Yours sincerely,
+
+**Dr. Seyed Mohammad Reza Hashemi (Reza Hashemi)**
+
+**Independent Researcher**
+
+**Creator of the Matter World Hypothesis**
+
+**ORCID: 0009-0002-0645-5180**
+
+mrhashemi2000@gmail.com
+
+
 
 > **Note on File Management**
 > 
