@@ -23,6 +23,98 @@ Environment: 🐍 Python 3.8+
 <img width="1366" height="768" alt="تصویر صفحه 2026-07-29 203326" src="https://github.com/user-attachments/assets/b44d3a4c-95ca-4055-b814-8587362c3b7e" />
 
 
+## IJA Editorial
+Jul 29, 2026, 9:09 PM (11 hours ago)
+to me, frances.westall@cnrs.fr
+
+Dear Author,
+I apologize for the confusion.
+The message you received is a default system template, which states that reviewers' comments are attached. However, in your case, the Associate Editor decided not to send the manuscript out for peer review, and it was therefore desk rejected.
+As a result, there are no reviewer comments associated with this decision.
+Thank you for your understanding. If you need any further clarification, please do not hesitate to contact me.
+
+
+Best wishes.
+
+
+Mrs. Maria Estrada-Flórez
+Editorial Office
+International Journal of Astrobiology
+De: Reza Hashemi <mrhashemi2000@gmail.com>
+Enviado: miércoles, 29 de julio de 2026 17:08
+Para: frances.westall@cnrs.fr <frances.westall@cnrs.fr>
+Cc: IJA Editorial <ijaeditorial@cambridge.org>
+Asunto: Re: International Journal of Astrobiology - Decision on IJA-2026-0085
+ 
+You don't often get email from mrhashemi2000@gmail.com. Learn why this is important
+
+
+Cambridge University Press & Assessment is the publishing and assessment department of the University of Cambridge. The corporate title of the University is The Chancellor, Masters, and Scholars of the University of Cambridge. Our principal office is at Shaftesbury Road, Cambridge, CB2 8EA, United Kingdom, with registered VAT number GB 823 8476 09. We are a not-for-profit organisation and an exempt charity under the Charities Act 2011.
+
+Disclaimer
+This email is intended solely for the recipient and may contain confidential information. If you have received this email in error, please let us know and then delete the original email and any attachments. Do not use, copy or disclose the contents of this email or any attachment. Any views or opinions in this email are solely those of the author and do not necessarily represent those of Cambridge, unless specifically stated.
+
+<img width="1366" height="768" alt="تصویر صفحه 2026-07-25 114327" src="https://github.com/user-attachments/assets/f28be89b-99e2-45bb-9f48-4533f1bcec61" />
+
+## Reza Hashemi <mrhashemi2000@gmail.com>
+Attachments
+8:21 AM (19 minutes ago)
+to IJA, frances.westall@cnrs.fr
+
+Subject: Clarification Request – Manuscript IJA-2026-0085
+
+Dear Mrs. Estrada-Flórez and Dr. Westall,
+
+I hope this message finds you well.
+
+I am writing in relation to manuscript IJA-2026-0085, “Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model.”
+
+In the decision letter and the subsequent clarification, it was explained that the manuscript was desk-rejected and was not sent out for peer review.
+
+I noticed, however, that the ScholarOne system displayed the status “Awaiting Reviewer Selection” for a considerable period before the final decision was issued. I am attaching  screenshot of the system status for your reference.
+
+I would be grateful if you could kindly clarify how this status relates to the editorial process that was followed in this case.
+
+Thank you very much for your time and assistance.
+
+Sincerely,
+Dr. Reza Hashemi
+
+Creator of Matter World Hypothesis
+
+ORCID: 0009-0002-0645-5180
+mrhashemi2000@gmail.com
+
+ One attachment
+  •  Scanned by Gmail
+
+
+## Reza Hashemi <mrhashemi2000@gmail.com>
+Jul 29, 2026, 9:53 PM (10 hours ago)
+to frances.westall@cnrs.fr, IJA
+
+Subject: Regarding the Decision and Process for Manuscript IJA-2026-0085
+
+Dear Mrs. Estrada-Flórez,
+
+Thank you for your prompt response and for clarifying the confusion regarding the decision letter.
+
+While I appreciate the clarification, I must express my professional disappointment regarding the editorial process. Receiving a system template that explicitly claims reviewer comments are attached, only to later discover it was a "default template" for a desk rejection, is highly misleading and contrary to the transparency expected from a prestigious journal like the International Journal of Astrobiology.
+
+Moreover, a desk rejection, while within the editor's prerogative, should typically be accompanied by a brief scientific justification—such as the manuscript being "out of scope" or "lacking novelty." In this case, the absence of any specific reasoning leaves the author in the dark regarding why the work was deemed unsuitable for peer review.
+
+This is particularly regrettable because the manuscript presents the "Matter World Hypothesis," a paradigm shift that challenges the conventional RNA World model. By utilizing a rigorous Kinetic Monte Carlo simulation (UPDSF v4.4) and validated prebiotic chemical parameters, the work provides a quantitative explanation for the environmental selection of Thymine over Uracil—a fundamental question in the origins of life.
+
+I believe that such a provocative and evidence-based hypothesis deserves, at the very least, a brief explanation as to why it did not meet the criteria for peer review.
+
+
+
+Best wishes.
+
+
+Dr. Reza Hashemi
+Creator of Matter World Hypothesis 
+
 
 > **Note on File Management**
 > 
