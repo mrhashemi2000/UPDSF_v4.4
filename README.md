@@ -199,6 +199,97 @@ Yours sincerely,
 mrhashemi2000@gmail.com
 
 
+## WESTALL Frances
+10:07 AM (7 hours ago)
+to me, IJA
+
+Dear all,
+I did write comments in the coment box as to why I rejected the manuscript but apparently they did not appear in the letter sent to the author. I think we need to correct this editorial issue so that future authors do not have the same problem.
+Yours sincerely
+Frances Westall
+
+De: "Reza Hashemi" <mrhashemi2000@gmail.com>
+À: "WESTALL Frances" <frances.westall@cnrs.fr>
+Cc: "IJA Editorial" <ijaeditorial@cambridge.org>
+Envoyé: Jeudi 30 Juillet 2026 11:24:08
+
+## Reza Hashemi <mrhashemi2000@gmail.com>
+5:05 PM (13 minutes ago)
+to WESTALL, IJA
+
+Subject: Request for Your Personal Review of the Editorial Record – Manuscript IJA-2026-0085
+
+**Dear Dr. Rocco Mancinelli,**
+
+I am writing to you personally because, despite several exchanges with the Editorial Office and the Associate Editor, the documentary record concerning manuscript IJA-2026-0085 remains internally inconsistent and raises legitimate questions regarding the editorial process followed in this case.
+
+I wish to emphasize that this is not an appeal against the editorial decision itself. I fully recognize the Editor's authority to decline a manuscript without external peer review.
+
+My concern is different.
+
+It concerns the accuracy and consistency of the official editorial record.
+
+The documentary history now contains several statements that cannot easily be reconciled.
+
+First, the official decision letter explicitly states:
+
+"The comments of the reviewer(s) which led to this decision can be found at the bottom of this letter."
+
+Yet the section titled "Reviewer(s)' Comments to Author" is completely empty.
+
+After I reported this inconsistency, the Editorial Office informed me that this wording was merely a default system template and that no peer review had taken place because the manuscript had been desk rejected.
+
+Subsequently, however, Dr. Westall wrote:
+
+"I did write comments in the comment box as to why I rejected the manuscript, but apparently they did not appear in the letter sent to the author."
+
+This introduces a new explanation that differs from the one previously provided by the Editorial Office.
+
+The difficulty is not simply that comments failed to appear.
+
+The official decision letter does not contain a generic "Comments" section.
+
+It contains only a section explicitly entitled:
+
+Reviewer(s)' Comments to Author
+
+If no reviewers existed, as the Editorial Office confirmed, then it is unclear what "comment box" Dr. Westall was referring to, why those comments were expected to appear in a section designated for reviewer comments, and why the decision letter itself explicitly referred to reviewer comments.
+
+In addition, the ScholarOne workflow displayed the status "Awaiting Reviewer Selection" for a considerable period before the rejection decision.
+
+When I requested clarification regarding this specific workflow status, the response explained only the reason for the processing delay and did not address the meaning of that status.
+
+Accordingly, the official record now consists of:
+
+a decision letter referring to reviewer comments;
+confirmation that no reviewer comments existed;
+a subsequent statement that editorial comments had in fact been entered into a comment box;
+an unexplained "Awaiting Reviewer Selection" workflow status;
+and multiple explanations that remain difficult to reconcile.
+These are not minor editorial details.
+
+They concern the integrity, transparency, and internal consistency of the editorial record maintained by the Journal.
+
+For that reason, I respectfully request your personal review of this case.
+
+Specifically, I would appreciate clarification of the following:
+
+Which specific ScholarOne comment field did Dr. Westall refer to in her email?
+Is that field intended to populate the section entitled "Reviewer(s)' Comments to Author" in the decision letter?
+If not, why did the official decision letter direct the author to reviewer comments that did not exist?
+What did the ScholarOne status "Awaiting Reviewer Selection" represent in the editorial history of this manuscript?
+Can the Journal confirm that the official editorial record accurately reflects every stage of the manuscript's handling?
+As a journal published by Cambridge University Press, I believe the accuracy of the editorial record is of fundamental importance.
+
+I therefore respectfully request your personal clarification of these issues.
+
+Thank you for your time and consideration.
+
+Yours sincerely,
+
+**Dr. Seyed Mohammad Reza Hashemi (Reza Hashemi)**
+
+
 
 > **Note on File Management**
 > 
