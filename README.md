@@ -23,6 +23,7 @@ Environment: 🐍 Python 3.8+
 <img width="1366" height="768" alt="تصویر صفحه 2026-07-29 203326" src="https://github.com/user-attachments/assets/b44d3a4c-95ca-4055-b814-8587362c3b7e" />
 
 
+
 ## Reza Hashemi <mrhashemi2000@gmail.com>
 Attachments
 1:31 PM (7 hours ago)
@@ -75,6 +76,7 @@ Dr Seyed Mohammad Reza Hashemi (Reza Hashemi)
 Independent Researcher  
 ORCID: 0009-0002-0645-5180  
 mrhashemi2000@gmail.com
+
 
 
 ## IJA Editorial
