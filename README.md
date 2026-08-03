@@ -100,13 +100,7 @@ Para: frances.westall@cnrs.fr <frances.westall@cnrs.fr>
 Cc: IJA Editorial <ijaeditorial@cambridge.org>
 Asunto: Re: International Journal of Astrobiology - Decision on IJA-2026-0085
  
-You don't often get email from mrhashemi2000@gmail.com. Learn why this is important
 
-
-Cambridge University Press & Assessment is the publishing and assessment department of the University of Cambridge. The corporate title of the University is The Chancellor, Masters, and Scholars of the University of Cambridge. Our principal office is at Shaftesbury Road, Cambridge, CB2 8EA, United Kingdom, with registered VAT number GB 823 8476 09. We are a not-for-profit organisation and an exempt charity under the Charities Act 2011.
-
-Disclaimer
-This email is intended solely for the recipient and may contain confidential information. If you have received this email in error, please let us know and then delete the original email and any attachments. Do not use, copy or disclose the contents of this email or any attachment. Any views or opinions in this email are solely those of the author and do not necessarily represent those of Cambridge, unless specifically stated.
 
 <img width="1366" height="768" alt="تصویر صفحه 2026-07-25 114327" src="https://github.com/user-attachments/assets/f28be89b-99e2-45bb-9f48-4533f1bcec61" />
 
