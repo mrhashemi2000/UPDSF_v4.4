@@ -22,11 +22,59 @@ Environment: 🐍 Python 3.8+
 
 <img width="1366" height="768" alt="تصویر صفحه 2026-07-29 203326" src="https://github.com/user-attachments/assets/b44d3a4c-95ca-4055-b814-8587362c3b7e" />
 
-<img width="1366" height="768" alt="تصویر صفحه 2026-08-03 133227" src="https://github.com/user-attachments/assets/60820886-9dfa-4d8c-98b1-b8c0572912ba" />
 
-<img width="1366" height="768" alt="تصویر صفحه 2026-08-03 133332" src="https://github.com/user-attachments/assets/82d77476-cfd4-45a7-8964-39f53515f143" />
+## Reza Hashemi <mrhashemi2000@gmail.com>
+Attachments
+1:31 PM (7 hours ago)
+to publishingethics
 
-<img width="1366" height="768" alt="تصویر صفحه 2026-08-03 133406" src="https://github.com/user-attachments/assets/d1df49f7-a0fd-4456-b002-464eb0a66dc6" />
+Subject: Formal Request for Review of Editorial Record Integrity – Manuscript IJA-2026-0085 (International Journal of Astrobiology)
+
+Dear Cambridge University Press Publishing Ethics Team,
+
+I am writing to formally request a review of the integrity and consistency of the official editorial record concerning manuscript IJA-2026-0085.
+
+Manuscript details:  
+ID: IJA-2026-0085  
+Title: Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model  
+Submitted: 9 July 2026  
+Decision date: 29 July 2026
+
+This is not an appeal against the editorial decision. I fully accept the Editor’s authority to desk-reject a manuscript without external peer review. My concern is strictly limited to the accuracy and internal consistency of the documented editorial process.
+
+The official record currently contains clear and unresolved inconsistencies:
+
+1. The decision letter of 29 July 2026 explicitly stated that “the comments of the reviewer(s) which led to this decision can be found at the bottom of this letter.” The section “Reviewer(s)’ Comments to Author” was, however, completely empty.
+
+2. The Editorial Office later stated that this wording was merely a default system template and that the manuscript had never been sent for peer review.
+
+3. The Associate Editor subsequently confirmed in writing that she had entered comments explaining the rejection into a comment box, but those comments did not appear in the letter sent to the author.
+
+4. ScholarOne displayed the status “Awaiting Reviewer Selection” on 25 July 2026 and “Awaiting Associate Editor-in-Chief Decision” on 29 July 2026. No satisfactory explanation has been provided for what the “Awaiting Reviewer Selection” status represented in a case that, according to the Editorial Office, never entered peer review.
+
+5. No scientific justification of any kind was ever communicated to the author for the desk rejection.
+
+These statements cannot be reconciled with one another. 
+
+The result is an official editorial record that is internally inconsistent and lacks transparency.
+
+I raised these points successively with the Editorial Office, the Associate Editor, and the Editor-in-Chief. The inconsistencies remain unresolved.
+
+Given that Cambridge University Press is committed to the principles of transparency and best practice in scholarly publishing, I request that your team conduct a procedural review of the editorial handling and documentation of this manuscript and provide a clear clarification of the points listed above.
+
+I am requesting that the official record be accurate, consistent, and transparent.
+
+I am prepared to supply the full correspondence and ScholarOne screenshots immediately upon request. I also request that this correspondence be placed on the official file of manuscript IJA-2026-0085.
+
+Looking forward to your response.
+
+Yours sincerely,
+
+
+Dr Seyed Mohammad Reza Hashemi (Reza Hashemi)  
+Independent Researcher  
+ORCID: 0009-0002-0645-5180  
+mrhashemi2000@gmail.com
 
 
 ## IJA Editorial
