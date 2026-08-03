@@ -29,9 +29,9 @@ Attachments
 1:31 PM (7 hours ago)
 to publishingethics
 
-Subject: Formal Request for Review of Editorial Record Integrity – Manuscript IJA-2026-0085 (International Journal of Astrobiology)
+**Subject: Formal Request for Review of Editorial Record Integrity – Manuscript IJA-2026-0085 (International Journal of Astrobiology)**
 
-Dear Cambridge University Press Publishing Ethics Team,
+**Dear Cambridge University Press Publishing Ethics Team,**
 
 I am writing to formally request a review of the integrity and consistency of the official editorial record concerning manuscript IJA-2026-0085.
 
@@ -72,9 +72,12 @@ Looking forward to your response.
 Yours sincerely,
 
 
-Dr Seyed Mohammad Reza Hashemi (Reza Hashemi)  
-Independent Researcher  
-ORCID: 0009-0002-0645-5180  
+####  Dr Seyed Mohammad Reza Hashemi (Reza Hashemi)
+
+Independent Researcher
+
+ORCID: 0009-0002-0645-5180
+
 mrhashemi2000@gmail.com
 
 
