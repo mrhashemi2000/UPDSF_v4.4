@@ -22,6 +22,12 @@ Environment: 🐍 Python 3.8+
 
 <img width="1366" height="768" alt="تصویر صفحه 2026-07-29 203326" src="https://github.com/user-attachments/assets/b44d3a4c-95ca-4055-b814-8587362c3b7e" />
 
+<img width="1366" height="768" alt="تصویر صفحه 2026-08-03 133227" src="https://github.com/user-attachments/assets/60820886-9dfa-4d8c-98b1-b8c0572912ba" />
+
+<img width="1366" height="768" alt="تصویر صفحه 2026-08-03 133332" src="https://github.com/user-attachments/assets/82d77476-cfd4-45a7-8964-39f53515f143" />
+
+<img width="1366" height="768" alt="تصویر صفحه 2026-08-03 133406" src="https://github.com/user-attachments/assets/d1df49f7-a0fd-4456-b002-464eb0a66dc6" />
+
 
 ## IJA Editorial
 Jul 29, 2026, 9:09 PM (11 hours ago)
