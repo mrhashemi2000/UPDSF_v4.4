@@ -78,54 +78,6 @@ ORCID: 0009-0002-0645-5180
 mrhashemi2000@gmail.com
 
 
-
-## IJA Editorial
-Jul 29, 2026, 9:09 PM (11 hours ago)
-to me, frances.westall@cnrs.fr
-
-Dear Author,
-I apologize for the confusion.
-The message you received is a default system template, which states that reviewers' comments are attached. However, in your case, the Associate Editor decided not to send the manuscript out for peer review, and it was therefore desk rejected.
-As a result, there are no reviewer comments associated with this decision.
-Thank you for your understanding. If you need any further clarification, please do not hesitate to contact me.
-
-
-Best wishes.
-
-
-Mrs. Maria Estrada-Flórez
-Editorial Office
-International Journal of Astrobiology
-De: Reza Hashemi <mrhashemi2000@gmail.com>
-Enviado: miércoles, 29 de julio de 2026 17:08
-Para: frances.westall@cnrs.fr <frances.westall@cnrs.fr>
-Cc: IJA Editorial <ijaeditorial@cambridge.org>
-Asunto: Re: International Journal of Astrobiology - Decision on IJA-2026-0085
- 
-
-
-<img width="1366" height="768" alt="تصویر صفحه 2026-07-25 114327" src="https://github.com/user-attachments/assets/f28be89b-99e2-45bb-9f48-4533f1bcec61" />
-
-
-
-
-## WESTALL Frances
-10:07 AM (7 hours ago)
-to me, IJA
-
-Dear all,
-I did write comments in the coment box as to why I rejected the manuscript but apparently they did not appear in the letter sent to the author. I think we need to correct this editorial issue so that future authors do not have the same problem.
-Yours sincerely
-Frances Westall
-
-De: "Reza Hashemi" <mrhashemi2000@gmail.com>
-À: "WESTALL Frances" <frances.westall@cnrs.fr>
-Cc: "IJA Editorial" <ijaeditorial@cambridge.org>
-Envoyé: Jeudi 30 Juillet 2026 11:24:08
-
-
-
-
 > **Note on File Management**
 > 
 > To simplify the page layout (due to the high volume of data) and improve readability, some deleted files have been removed from the current view. However, they remain fully accessible and visible within the **History** section.
