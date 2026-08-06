@@ -18,7 +18,7 @@ Environment: 🐍 Python 3.8+
 
 **License:** CC BY-NC-ND
 
-**Last Scientific Update:** July 2026
+**Last Scientific Update:** August 2026
 
 <img width="1366" height="768" alt="تصویر صفحه 2026-07-29 203326" src="https://github.com/user-attachments/assets/b44d3a4c-95ca-4055-b814-8587362c3b7e" />
 
