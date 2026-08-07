@@ -20,9 +20,20 @@ Environment: 🐍 Python 3.8+
 
 **Last Scientific Update:** August 2026
 
+<br>
+<br>
+
+📂 **Complete Analysis: Why Thymine Dominates DNA Over Uracil**
+
+The detailed reports and raw data for Complete Analysis: Why Thymine Dominates DNA Over Uracil can be found in the 📄 [Complete Analysis: Why Thymine Dominates DNA Over Uracil](analysis/Why_Thymine_Dominates_DNA_Over_Uracil.md)
+
+<br>
+<br>
+
 <img width="1366" height="768" alt="تصویر صفحه 2026-07-29 203326" src="https://github.com/user-attachments/assets/b44d3a4c-95ca-4055-b814-8587362c3b7e" />
 
-
+<br>
+<br>
 
 ## Reza Hashemi <mrhashemi2000@gmail.com>
 Attachments
@@ -80,10 +91,15 @@ ORCID: 0009-0002-0645-5180
 
 mrhashemi2000@gmail.com
 
+<br>
+<br> 
 
 > **Note on File Management**
 > 
 > To simplify the page layout (due to the high volume of data) and improve readability, some deleted files have been removed from the current view. However, they remain fully accessible and visible within the **History** section.
+
+<br>
+<br>
 
 ## 📑 Zenodo Archive & Digital Object Identifiers (DOIs)
 To ensure full transparency and reproducibility, the computational data and various versions of this framework are archived on Zenodo.
@@ -112,7 +128,8 @@ To ensure full transparency and reproducibility, the computational data and vari
 
 
 ---
-
+<br>
+<br>
 ## 🌍 Scientific Motivation
 
 This study addresses **one of the fundamental questions in origin-of-life (OoL) research**:
