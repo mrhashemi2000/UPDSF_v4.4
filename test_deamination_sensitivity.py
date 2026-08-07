@@ -1,6 +1,12 @@
 """
 Sensitivity Test: Effect of Cytosine Deamination on Thymine Enrichment
 Conditions: T=68°C, pH=8.0, 120 hours, polymer_length=100
+License & Copyright
+Copyright ©️ 2026 Seyed Mohammad Reza Hashemi  
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
+
+ORCID: 0009-0002-0645-5180
+DOI: 10.5281/zenodo.21224889
 """
 
 import matplotlib
