@@ -578,9 +578,12 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-NoDeriv
 
 ---
 
-*This analysis is part of the Unified Prebiotic DNA Selection Framework (UPDSF) v4.4, using strictly empirical parameters from peer-reviewed literature. All values are derived from experimental data and verified against published results.*
+*This analysis is part of the Unified Prebiotic DNA Selection Framework (UPDSF) v4.4, using strictly empirical parameters from peer-reviewed literature. All values are derived from experimental data and verified against published results.* UPDSF v4.4 Robustness Check: Testing Thymine dominance under extreme 36x deamination stress (C -> U).
+
 
 ---
+<br>
+<br>
 
 <img width="9140" height="7691" alt="sensitivity_2d_v44_lipid" src="https://github.com/user-attachments/assets/d48e4b4f-f37b-4db8-9ea2-1371aea2f651" />
 
@@ -644,7 +647,7 @@ The transition from RNA to DNA was an inevitable consequence of Molecular Natura
 Key Takeaway:
 > "The replacement of Uracil with Thymine is a chemical necessity. Even under extreme perturbations, the inexorable logic of thermodynamics and photostability ensures the dominance of Thymine."*
 ---
-*Validation Match: $87\%$ (Compared to primary literature: Lindahl, Cleaves, Ravanat & Cadet).  
+*Validation Match: 87\% (Compared to primary literature: Lindahl, Cleaves, Ravanat & Cadet).  
 Status:* Validated and Robust.
 
 <img width="4798" height="3014" alt="optimal_simulation_v44_lipid" src="https://github.com/user-attachments/assets/afbb4cc1-aef3-4adf-bdd5-71baf5ba9e65" />
