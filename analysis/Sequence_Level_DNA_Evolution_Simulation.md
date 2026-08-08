@@ -34,7 +34,7 @@ The 12-panel visualization provides a comprehensive snapshot of the evolutionary
 - T Fraction vs. Fitness: The scatter plot reveals a critical insight: while high Thymine fractions are initially associated with survival, the highest fitness is achieved at a balanced T-fraction ($\sim 0.25$), optimizing the sequence for both chemistry and function.
 
 ### 4. Emergence of Catalytic Motifs
-- Catalytic Motifs Over Time:* The simulation captures the "birth" of functional DNA. `DNAzyme_8_17` and `DNAzyme_E2` show exponential growth during the first 50 generations. These motifs reach a massive population count (~50,000 copies), proving that once a catalytic motif is discovered, it provides a massive evolutionary advantage, driving the sequence toward the global fitness maximum.
+- Catalytic Motifs Over Time: The simulation captures the "birth" of functional DNA. `DNAzyme_8_17` and `DNAzyme_E2` show exponential growth during the first 50 generations. These motifs reach a massive population count (~50,000 copies), proving that once a catalytic motif is discovered, it provides a massive evolutionary advantage, driving the sequence toward the global fitness maximum.
 
 ---
 
@@ -43,7 +43,7 @@ The 12-panel visualization provides a comprehensive snapshot of the evolutionary
 
 | Metric | Observation | Scientific Implication |
 | :--- | :--- | :--- |
-| *Final T Fraction | 0.250 | Optimal balance for stability and folding |
+| Final T Fraction | 0.250 | Optimal balance for stability and folding |
 | Final Diversity | 2 | Strong natural selection (Genetic Bottleneck) |
 | Uracil Content | 0% | Complete replacement of U by T |
 | Top Motifs | 8_17, E2 | Emergence of cleavage and ligation functions |
