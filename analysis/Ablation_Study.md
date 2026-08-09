@@ -1,5 +1,5 @@
 
-# Ablation Study: Sensitivity Analysis of Prebiotic Thymine Enrichment (v4.6)
+# Ablation Study: Sensitivity Analysis of Prebiotic Thymine Enrichment UPDSF v4.4 (v4.6)
 
 ## Overview
 This report documents the Ablation Study conducted on the `UPDSF v4.6` (Universal Prebiotic DNA Simulation Framework). The primary objective was to quantify the contribution of individual environmental and physicochemical constraints on the enrichment of Thymine (T) over Uracil (U) under simulated prebiotic conditions.
