@@ -92,5 +92,5 @@ The results validate the *Matter World Hypothesis (MWH) by demonstrating that:
 | Mean CI | `confidence_intervals.png` | Statistical significance and precision |
 
 Author: Seyed Mohammad Reza Hashemi
-*Project:* UPDSF v4.4 - Prebiotic Chemical Evolution
+*Project:* UPDSF v4.4 (v4.6) - Prebiotic Chemical Evolution
 *License:* CC BY-NC-ND 4.0
