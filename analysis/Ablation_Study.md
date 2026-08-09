@@ -27,14 +27,15 @@ The use of a $36\text{x}$ deamination rate in previous iterations was intentiona
 The ablation study reveals that the "Full Model" reaches a steady-state enrichment of 3.532x*. While removing certain protective factors (like lipids) increases the nominal enrichment value, it does so by accelerating the degradation of the entire population.
 
 ### 📊 Comparative Metrics
+
 | Condition | Mean Enrichment | Effect Size (Cohen's d) | Significance (p-value) |
 | :--- | :---: | :---: | :---: |
-| *Full Model | 3.532x | Baseline | - |
-| No Lipid | 3.813x | +18.27 | p < 0.001 (*) |
-| No Clay | 3.708x | +12.14 | p < 0.001 (*) |
+| Full Model | 3.532x | Baseline | - |
+| No Lipid | 3.813x | +18.27 | p < 0.001 (***) |
+| No Clay | 3.708x | +12.14 | p < 0.001 (***) |
 | No UV | 3.522x | -0.70 | p > 0.05 (ns) |
-| No Langevin | 3.462x | -5.26 | p < 0.01 () |
-| Minimal | 3.875x | +25.31 | p < 0.001 (**) |
+| No Langevin | 3.462x | -5.26 | p < 0.01 (**) |
+| Minimal | 3.875x | +25.31 | p < 0.001 (***) |
 
 ### Distribution & Stability Analysis
 
