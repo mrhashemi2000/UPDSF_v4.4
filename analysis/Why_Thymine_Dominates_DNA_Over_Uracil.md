@@ -836,3 +836,60 @@ These results do not establish environmental selection as the sole historical ca
 - Shen, J. C. et al. (1994)  
 - Deamer, D. W. (2017)  
 - Main manuscript and Supplementary Information (this work)
+
+
+# List of Supporting Materials and Computational Analyses
+
+The following supporting documents and analyses accompany the main manuscript  
+*Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model*.
+
+All analyses are fully consistent with the core UPDSF framework, the calibrated parameters, and the results reported in the main text and Supplementary Information.
+
+---
+
+### 1. Component-Ablation Study (UPDSF v4.6)
+- Eight independent replicates per condition  
+- Conditions: 76 °C, pH 9.5, 240 h  
+- Full Model mean enrichment: **3.532×**  
+- Key effect sizes (Cohen’s d): No Lipid +18.27, No Clay +12.14, Minimal +25.31, No Langevin −5.26  
+- Demonstrates the modulatory roles of lipid and clay protection and the contribution of Langevin dynamics
+
+### 2. Extreme Deamination Stress Test (36×)
+- Upper-bound robustness check using a 36× cytosine-to-uracil deamination ratio  
+- Confirms that positive thymine enrichment persists even under strongly amplified uracil production  
+- Distinguishes Global Fraction Shift from the primary Local T/U Enrichment Ratio
+
+### 3. Controlled Deamination Sensitivity Analysis
+- Matched simulations with and without cytosine deamination  
+- Enrichment: 2.748× (with) vs 3.433× (without)  
+- Relative difference ≈ 25 %  
+- Absolute thymine counts remain nearly identical; deamination primarily redistributes the C/U pools
+
+### 4. Global Sobol Sensitivity Analysis
+- Saltelli sampling, N = 5,000 (160,000 model evaluations)  
+- Conditions: 68 °C, pH 7.5, polymer length = 100  
+- Dominant parameters: A_U (ST = 0.7751), base_catalysis_factor (ST = 0.6718)  
+- Strong higher-order interactions (ST − S1 ≈ 0.45–0.55)
+
+### 5. Monte Carlo Uncertainty Analysis (200 realizations)
+- Random perturbation of temperature, pH, UV exposure and lipid concentration  
+- High-enrichment solutions distributed primarily across 65–75 °C and pH 7–9  
+- Demonstrates that the enrichment signal is not restricted to a single optimized parameter combination
+
+### 6. Monte Carlo Variance Decomposition
+- Mechanistic interpretation of the Sobol indices  
+- Links the observed non-additive variance structure to the multiplicative kinetic network of the model
+
+### 7. Sequence-Level Evolution Simulation
+- Extension to sequence and population dynamics  
+- Observes selective sweeps, complete exclusion of uracil in high-fitness genotypes, and emergence of catalytic motifs  
+- Final thymine enrichment ≈ 3.04× (consistent with the population-level baseline)
+
+---
+
+### Notes on Version Consistency
+- Analyses performed with the historical 36× deamination configuration are explicitly identified as stress tests.  
+- The primary quantitative results of the manuscript (including the component-ablation study) use the empirically calibrated 2.2× deamination factor (UPDSF v4.6).  
+- No contradictions exist between the supporting analyses and the results reported in the main text.
+
+All computational materials, raw data and analysis scripts are archived with the project (Zenodo DOI: 10.5281/zenodo.21224889).
