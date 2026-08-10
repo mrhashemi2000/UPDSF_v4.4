@@ -894,7 +894,7 @@ All analyses are fully consistent with the core UPDSF framework, the calibrated 
 
 All computational materials, raw data and analysis scripts are archived with the project (Zenodo DOI: 10.5281/zenodo.21224889).
 
-### 💡 Conclusion for the "Matter World Hypothesis" 
+# Conclusion for the "Matter World Hypothesis" 
 
 
 ### 📜 Perspective
