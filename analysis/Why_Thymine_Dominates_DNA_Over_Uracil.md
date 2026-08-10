@@ -847,7 +847,7 @@ All analyses are fully consistent with the core UPDSF framework, the calibrated 
 
 ---
 
-### 1. Component-Ablation Study (UPDSF v4.6)
+### 1. Component-Ablation Study (UPDSF v4.6)(2.2×)
 - Eight independent replicates per condition  
 - Conditions: 76 °C, pH 9.5, 240 h  
 - Full Model mean enrichment: **3.532×**  
