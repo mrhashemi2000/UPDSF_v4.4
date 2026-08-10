@@ -657,7 +657,7 @@ Status:* Validated and Robust.
 ## 1. Temporal Dynamics of DNA Accumulation
 
 The *DNA Accumulation plot (top-left) reveals the kinetic behaviors of the four nucleotide-containing DNA chains:
-- The Cytosine Crisis: `C-DNA` (green) is flat and remains near zero ($\sim 221$ copies at 22 hours). This is the direct result of the 36.0$\times$ Deamination Stress Test, which systematically converts Cytosine to Uracil before or during polymerization.
+- The Cytosine Crisis: `C-DNA` (green) is flat and remains near zero ($\sim 221$ copies at 22 hours). This is the direct result of the 36.0 times Deamination Stress Test, which systematically converts Cytosine to Uracil before or during polymerization.
 - The Uracil Accumulation Paradox: Despite Uracil's thermodynamic instability, `U-DNA` (blue) accumulates linearly, reaching $\sim 23,000$ copies. This occurs because the massive deamination of Cytosine ($C \rightarrow U$) constantly feeds the monomeric Uracil pool, combined with U's high influx rate.
 - Thymine Accumulation and Late-Stage Decay: `T-DNA` (red) accumulates steadily to a peak of $\sim 10,000$ copies at $20\text{ hours}$. Crucially, after $20\text{ hours}$, we observe a distinct downward bend in the curve. 
 
