@@ -720,7 +720,7 @@ This distribution is the empirical signature of a *highly deaminated, high-tempe
 ### UPDSF v4.4 Stress-Test Configuration
 
 **Related Manuscript**  
-Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model  
+*Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model*
 
 **Author**  
 Seyed Mohammad Reza Hashemi  
@@ -734,55 +734,54 @@ August 2026
 
 ### 1. Purpose and Scope
 
-This supporting analysis examines the robustness of thymine (T) enrichment when cytosine-to-uracil deamination is artificially elevated to an extreme value of **36×**.  
+This supporting analysis examines the robustness of thymine enrichment when cytosine-to-uracil deamination is artificially elevated to an extreme value of **36×**.
 
 The 36× configuration is **not** the baseline representation of prebiotic chemistry. It was intentionally designed as an upper-bound stress test. The empirically calibrated baseline used in the main manuscript and in the updated UPDSF v4.6 results is **2.2×**.
 
-The goal of the stress test is to determine whether thymine enrichment persists when the pathway that most strongly generates uracil is maximized.
+---
+
+### 2. Critical Distinction Between Enrichment Metrics
+
+Two different quantities have been calculated in the historical record. They must not be confused or numerically pooled:
+
+| Metric                            | Definition                                      | Typical value under 36× stress-test | Primary value in v4.6 (2.2×) |
+|-----------------------------------|-------------------------------------------------|-------------------------------------|------------------------------|
+| **Local T/U Enrichment Ratio**    | Final number of T residues ÷ Final number of U residues | Moderate                            | **3.532×** (Full Model mean, 8 replicates) |
+| **Global Fraction Shift**         | Final thymine fraction ÷ Initial thymine fraction | Can exceed 10× (e.g. 12.8×)         | Lower                        |
+
+- The **primary reported enrichment** throughout the main manuscript, the Supplementary Information, and the v4.6 component-ablation study is the **Local T/U Enrichment Ratio** (3.532×).
+- Numbers such as **12.8×** refer exclusively to the **Global Fraction Shift** observed under the extreme 36× stress-test and should not be compared directly with the 3.532× baseline.
 
 ---
 
-### 2. Experimental Design of the Stress Test
+### 3. Experimental Design of the Stress Test
 
-| Parameter                        | Value              | Notes                                      |
-|----------------------------------|--------------------|--------------------------------------------|
-| Deamination ratio (C → U)        | 36×                | Extreme stress-test value                  |
-| Empirical baseline (v4.6)        | 2.2×               | Standard value used in main results        |
-| Temperature range                | 65–76 °C           | High-temperature prebiotic regime          |
-| pH range                         | 7.0–9.5            | Neutral to mildly alkaline                  |
-| Simulation duration              | 240 h              | Full environmental cycle                   |
-| Initial U : T monomer influx     | ≈ 2.67 : 1         | Prebiotically realistic imbalance          |
-| Polymer length                   | 100 bases          | Standard setting                           |
-| Lipid concentration              | 0.05 M             | Active vesicle formation                   |
-| Replicates (where applicable)    | Multiple           | Stochastic Monte Carlo framework           |
-
----
-
-### 3. Distinction Between Metrics
-
-Two different enrichment metrics appear in the historical record and must not be pooled:
-
-| Metric                              | Definition                                      | Typical range under 36× | Typical range under 2.2× (v4.6) |
-|-------------------------------------|-------------------------------------------------|--------------------------|---------------------------------|
-| Global fraction shift               | Final T fraction / Initial T fraction           | Can exceed 10×           | Lower                           |
-| Local T/U enrichment ratio          | Final (T copies) / (U copies)                   | Moderate                 | ≈ 3.53× (Full Model mean)       |
-
-The main manuscript and the v4.6 ablation study report the **local T/U enrichment ratio**. The higher global-shift values are a consequence of the small initial thymine pool and the extreme deamination regime.
+| Parameter                     | Value          | Notes                                      |
+|-------------------------------|----------------|--------------------------------------------|
+| Deamination ratio (C → U)     | 36×            | Extreme upper-bound stress test            |
+| Empirical baseline (v4.6)     | 2.2×           | Standard value used in main results        |
+| Temperature                   | 65–76 °C       | High-temperature prebiotic regime          |
+| pH                            | 7.0–9.5        | Neutral to mildly alkaline                 |
+| Simulation duration           | 240 h          | Full environmental cycle                   |
+| Initial U : T influx ratio    | ≈ 2.67 : 1     | Prebiotically realistic imbalance          |
 
 ---
 
 ### 4. Representative Results under 36× Stress
 
-**Example high-temperature composition (illustrative run):**
+Under the extreme deamination regime, thymine still becomes the most abundant base in the final polymer population.
 
-| Base     | Final Fraction | Approximate Copy Number | Observation                          |
-|----------|----------------|--------------------------|--------------------------------------|
-| Thymine  | ~47 %          | High                     | Dominant                             |
-| Uracil   | ~28 %          | Elevated                 | Continuously fed by C → U            |
-| Cytosine | ~12 %          | Strongly depleted        | Rapid conversion                     |
-| Adenine  | ~12 %          | Intermediate             | Stable but not preferentially selected |
+**Illustrative final composition (high-temperature run):**
 
-Despite continuous production of uracil from cytosine, thymine remains the most abundant base in the final polymer population under the tested conditions.
+| Base     | Final Fraction | Observation                              |
+|----------|----------------|------------------------------------------|
+| Thymine  | ~47 %          | Dominant                                 |
+| Uracil   | ~28 %          | Elevated due to continuous C → U input   |
+| Cytosine | ~12 %          | Strongly depleted                        |
+| Adenine  | ~12 %          | Intermediate                             |
+
+In this particular stress-test realization the **Global Fraction Shift** reached approximately **12.8×** (initial thymine fraction ≈ 12.5 % → final ≈ 47.3 %).  
+This value is a global population-shift metric and is distinct from the Local T/U Enrichment Ratio reported in the main study.
 
 ---
 
@@ -790,50 +789,39 @@ Despite continuous production of uracil from cytosine, thymine remains the most 
 
 Even under maximal uracil production, several independent factors continue to favor thymine:
 
-1. **Hydrolytic stability**  
-   Activation energy difference:  
-   - Ea (T) = 32.0 kcal mol⁻¹  
-   - Ea (U) = 27.0 kcal mol⁻¹  
-   This produces substantially slower hydrolysis of thymine-containing polymers.
+1. **Hydrolytic stability** – Activation energy difference of 5 kcal mol⁻¹ (Ea_T = 32.0 vs Ea_U = 27.0 kcal mol⁻¹).
+2. **UV photostability** – Empirical resistance of thymine is approximately 3.5–3.6× higher than that of uracil.
+3. **Lipid membrane partitioning** – Higher hydrophobic character increases protection inside vesicles.
+4. **Modest kinetic preference** in template-directed polymerization.
 
-2. **UV photostability**  
-   Empirical resistance of thymine is approximately 3.5–3.6× higher than that of uracil (Ravanat & Cadet, 1995).
-
-3. **Lipid membrane partitioning**  
-   Higher hydrophobic character of thymine increases the probability of protection inside vesicles.
-
-4. **Modest kinetic preference in polymerization**  
-   Slight fidelity advantage further amplifies the differential over long simulation times.
-
-These mechanisms operate concurrently and are not eliminated by extreme deamination.
+These mechanisms are not eliminated by extreme deamination.
 
 ---
 
 ### 6. Relationship to the Primary (v4.6) Results
 
-| Configuration              | Deamination factor | Mean T/U enrichment (Full Model) | Role in the study                  |
-|----------------------------|--------------------|----------------------------------|------------------------------------|
-| Historical stress test     | 36×                | Higher (global shift)            | Robustness demonstration           |
-| Updated baseline (v4.6)    | 2.2×               | 3.532× (8 replicates)            | Primary quantitative result        |
+| Configuration              | Deamination factor | Primary metric (Local T/U)      | Role                              |
+|----------------------------|--------------------|---------------------------------|-----------------------------------|
+| Historical stress test     | 36×                | Moderate (plus high Global Shift) | Robustness demonstration          |
+| Updated baseline (v4.6)    | 2.2×               | **3.532×** (Full Model mean)    | Primary quantitative result       |
 
-The v4.6 component-ablation study (Full Model = 3.532×, No Lipid = 3.813×, No Clay = 3.708×, Minimal = 3.875×) constitutes the main reported outcome of the manuscript. The 36× runs serve solely to show that the qualitative direction of selection is not fragile.
+The v4.6 component-ablation study (Full Model = 3.532×, No Lipid = 3.813×, No Clay = 3.708×, Minimal = 3.875×) constitutes the main reported outcome of the manuscript. The 36× runs serve only to show that the qualitative direction of selection remains positive under extreme uracil production.
 
 ---
 
 ### 7. Interpretation Caveats
 
-- A higher T/U ratio does not necessarily correspond to higher absolute polymer survival.  
-- Protective modules (lipid membranes and clay surfaces) can reduce relative enrichment while increasing overall molecular persistence.  
-- Enrichment is an emergent outcome of competing rates, not an imposed selection coefficient.  
-- Results obtained under 36× should not be substituted for the calibrated 2.2× baseline values.
+- A higher Local T/U ratio does not necessarily imply higher absolute polymer survival.
+- Protective modules (lipid and clay) can lower relative enrichment while increasing overall molecular persistence.
+- Global Fraction Shift values (e.g. 12.8×) are specific to the stress-test configuration and the chosen initial conditions; they should not be substituted for the calibrated Local T/U baseline of 3.532×.
 
 ---
 
 ### 8. Conclusion
 
-The extreme 36× deamination stress test demonstrates that thymine enrichment remains positive even when uracil production is strongly amplified.  
+The extreme 36× deamination stress test demonstrates that thymine enrichment (both as Local T/U ratio and as Global Fraction Shift) remains positive even when uracil production is strongly amplified.
 
-When combined with the calibrated UPDSF v4.6 results (empirical 2.2× factor and multi-replicate ablation), the findings indicate that environmental filtering based on differential stability, photostability and compartmentalization can generate reproducible thymine enrichment under prebiotic conditions.
+When combined with the calibrated UPDSF v4.6 results (empirical 2.2× factor and multi-replicate ablation yielding a Full Model mean of **3.532×**), the findings indicate that environmental filtering based on differential stability, photostability and compartmentalization can generate reproducible thymine enrichment under prebiotic conditions.
 
 These results do not establish environmental selection as the sole historical cause of the RNA-to-DNA transition. They provide a quantitative computational framework for evaluating the possible contribution of physicochemical persistence prior to the emergence of enzymatic nucleotide metabolism.
 
