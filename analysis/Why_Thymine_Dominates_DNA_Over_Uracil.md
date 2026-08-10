@@ -8,7 +8,7 @@
 *Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model*  
 (International Journal of Astrobiology – Draft)
 
-# 🔬 Complete Analysis: Why Thymine Dominates DNA Over Uracil
+# Complete Analysis: Why Thymine Dominates DNA Over Uracil
 
 ## A Computational Evidence from Prebiotic Chemistry Simulations
 
