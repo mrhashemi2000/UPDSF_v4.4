@@ -706,7 +706,7 @@ The strong preservation of Thymine (9,061 copies) compared to Cytosine validates
 The ratio of T (9,061) to C (221) is approximately 41:1. This staggering difference mathematically proves that the "Thymine-switch" was not just a minor adjustment in evolution, but a critical requirement for the existence of stable, long-term genetic information.
 ---
 
-This distribution is the empirical signature of a *highly deaminated, high-temperature prebiotic system. The near-total depletion of Cytosine (221) and the strong preservation of Thymine (9,061) mathematically validate that under environmental duress, Thymine acts as the primary thermal and chemical anchor of the genome.*
+This distribution is the empirical signature (literature-based) of a *highly deaminated, high-temperature prebiotic system. The near-total depletion of Cytosine (221) and the strong preservation of Thymine (9,061) mathematically validate that under environmental duress, Thymine acts as the primary thermal and chemical anchor of the genome.*
 
 
 > Vesicle Partitioning & Proto-cellular Encapsulation:
