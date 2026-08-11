@@ -900,13 +900,13 @@ All computational materials, raw data and analysis scripts are archived with the
 ### 📜 Perspective
 The transition from non-living chemistry to organized biological systems remains one of science’s most difficult theoretical problems. This project introduces the Matter World Hypothesis (MWH), a physics-based framework proposing that life emerged through selection processes acting on heterogeneous molecular mixtures under prebiotic environmental conditions.
 
-### 🔬 The "Chemical Darwinism" Computational Series
+### The "Chemical Darwinism" Computational Series
 The MWH is validated through a series of stochastic computational simulations. These models demonstrate that:
 - Molecular Selection: Prebiotic filters naturally isolate stable and functional polymers.
 - Cooperation: Simple molecular interactions can evolve into cooperative networks.
 - Protocellular Organization: Complex organization emerges naturally from basic physicochemical dynamics.
 
-### 🤖 Intelligence-Augmented (IA) Science
+### Intelligence-Augmented (IA) Science
 This work serves as a primary case study in Intelligence-Augmented (IA) science. It represents a new paradigm of discovery where:
 $$\text{Human Reasoning} \longleftrightarrow \text{AI-Assisted Modeling} \longrightarrow \text{Accelerated Interdisciplinary Discovery}$$
 The recursive collaboration between the researcher and AI has been used to bridge the gap between abstract chemical theory and high-fidelity computational simulation.
