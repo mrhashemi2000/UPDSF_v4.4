@@ -1037,8 +1037,10 @@ The integration of Sutherland's synthesis, Szostak's compartmentalization, and t
 | UPDSF v4.4 | Selection Pressure | Purged U via hydrolysis and UV damage. |
 | Final State | The DNA Archive | T-Dominance (Deterministic Success). |
 
-Final Verdict:
-The emergence of DNA was not a "lucky accident." In the framework of the Matter World Hypothesis, the transition from chemistry to biology is the process of matter finding its most stable, information-dense configuration. The "Thymine Switch" is the definitive proof that the laws of physics dictate the architecture of life.*
+## Final Verdict:
+*The emergence of DNA was not a "lucky accident." In the framework of the Matter World Hypothesis, the transition from chemistry to biology is the process of matter finding its most stable, information-dense configuration. The "Thymine Switch" is the definitive proof that the laws of physics dictate the architecture of life.*
+
+## References
 
 1. On Prebiotic Synthesis (Sutherland):
 - Sutherland, J. D. (2017).* "The origin of nucleotide biosynthesis." Nature, 547(7662), 334-342. [doi:10.1038/nature23105]
