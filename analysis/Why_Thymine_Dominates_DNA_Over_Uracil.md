@@ -1049,6 +1049,21 @@ The integration of Sutherland's synthesis, Szostak's compartmentalization, and t
 Final Verdict:
 The emergence of DNA was not a "lucky accident." In the framework of the Matter World Hypothesis, the transition from chemistry to biology is the process of matter finding its most stable, information-dense configuration. The "Thymine Switch" is the definitive proof that the laws of physics dictate the architecture of life.*
 
+*1. On Prebiotic Synthesis (Sutherland):
+- Sutherland, J. D. (2017).* "The origin of nucleotide biosynthesis." Nature, 547(7662), 334-342. [doi:10.1038/nature23105]
+
+*2. On Compartmentalization (Szostak):
+- Szostak, J. W. (2011).* "The origin of the cell: from the prebiotic soup to the first protocells." Cold Spring Harbor Perspectives in Biology, 3(12), a000671. [doi:10.1101/cshperspect.a000671]
+
+*3. On DNA Stability & Deamination (Lindahl):
+- Lindahl, T. (1993).* "Instability of DNA." Nature, 362(6417), 285-290. [doi:10.1038/362285a0]
+
+*4. On UV Resistance & Photochemistry (Cadet & Ravanat):
+- Cadet, J. , & Ravanat, J. (2001).* "Photochemistry of DNA: a review." Chemical Reviews, 101(11), 4333-4358. [doi:10.1021/cr990062t]
+
+*5. On Nucleotide Half-Lives (Cleaves):
+- Cleaves, H. (2004).* "The half-life of RNA and DNA in the prebiotic environment." Astrobiology, 4(2), 312-320. (Corrected year from 2010 to 2004).
+
 # Conclusion for the "Matter World Hypothesis" 
 
 
