@@ -465,23 +465,23 @@ The 36× stress test demonstrates that:
 
 
 ### I. Molecular Stability & Selection (The "Filter" Logic)
-- *Lindahl, T. (1993).* "Instability and decay of the primary structure of DNA." Nature, 362, 709-715. (**Verified**)
-- *Cleaves, H. J. (2004).* "The half-life of RNA and DNA in the prebiotic environment." Astrobiology, 4(2), 312-320. (**Corrected date/title for the actual data source**)
-- *Cadet, J. L., & Ravanat, J. (2001).* "Photochemistry of DNA: a review." Chemical Reviews, 101(11), 4333-4358. (**Corrected to the definitive review for UV-stability**)
-- *Shen, J. C., Rideout, W. M., & Jones, P. A. (1994).* "The rate of hydrolytic deamination of 5-methylcytosine in double-stranded DNA." Nucleic Acids Research, 22(6), 972-976. (**Verified**)
+- *Lindahl, T. (1993).* "Instability and decay of the primary structure of DNA." Nature, 362, 709-715. 
+- *Cleaves, H. J. (2004).* "The half-life of RNA and DNA in the prebiotic environment." Astrobiology, 4(2), 312-320. 
+- *Cadet, J. L., & Ravanat, J. (2001).* "Photochemistry of DNA: a review." Chemical Reviews, 101(11), 4333-4358. 
+- *Shen, J. C., Rideout, W. M., & Jones, P. A. (1994).* "The rate of hydrolytic deamination of 5-methylcytosine in double-stranded DNA." Nucleic Acids Research, 22(6), 972-976. 
 
 ### II. Prebiotic Chemistry & Synthesis
-- *Shapiro, R. (2000).* Origins of Life: An Organic Chemistry Approach. (Book). (**Corrected: Use this for his critical analysis of base synthesis**)
-- *Ferris, J. P. (1996).* "Clay catalysis in the origin of life." Origins of Life and Evolution of Biospheres, 26(4), 449-461. (**Verified**)
-- *Orgel, L. E. (2004).* "Prebiotic chemistry and the origin of the RNA world." Critical Reviews in Biochemistry and Molecular Biology, 39(2), 99-123. (**Verified**)
-- *Gilbert, W. (1986).* "The RNA world." Nature, 319, 618. (**Verified**)
+- *Shapiro, R. (2000).* Origins of Life: An Organic Chemistry Approach. (Book). 
+- *Ferris, J. P. (1996).* "Clay catalysis in the origin of life." Origins of Life and Evolution of Biospheres, 26(4), 449-461. 
+- *Orgel, L. E. (2004).* "Prebiotic chemistry and the origin of the RNA world." Critical Reviews in Biochemistry and Molecular Biology, 39(2), 99-123. 
+- *Gilbert, W. (1986).* "The RNA world." Nature, 319, 618. 
 
 ### III. Compartmentalization & Protocells
-- *Szostak, J. W. (2011).* "The origin of the cell: from the prebiotic soup to the first protocells." Cold Spring Harbor Perspectives in Biology, 3(12), a000671. (**Corrected to the definitive 2011 review**)
-- *Deamer, D. W. (2017).* "The role of lipid membranes in the origin of life." Life, 7(2), 15. (**Verified**)
+- *Szostak, J. W. (2011).* "The origin of the cell: from the prebiotic soup to the first protocells." Cold Spring Harbor Perspectives in Biology, 3(12), a000671. 
+- *Deamer, D. W. (2017).* "The role of lipid membranes in the origin of life." Life, 7(2), 15. 
 
 ### IV. Computational Framework (The MWH Implementation)
-- *Hashemi, S.M.R. (2026).* "Unified Prebiotic DNA Selection Framework (UPDSF) v4.4." Zenodo, DOI: 10.5281/zenodo.21224889. (**Your Primary Work**)
+- *Hashemi, S.M.R. (2026).* "Unified Prebiotic DNA Selection Framework (UPDSF) v4.4." Zenodo, DOI: 10.5281/zenodo.21224889. 
 ---
 
 ## Appendix
