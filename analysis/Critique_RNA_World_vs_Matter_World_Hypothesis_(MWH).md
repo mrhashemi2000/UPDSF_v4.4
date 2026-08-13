@@ -73,7 +73,7 @@ The 5-methyl group of Thymine is not merely a structural difference but a *funct
 
 The Matter World Hypothesis provides a more robust and scientifically grounded explanation for the origin of genetic archives. It transforms the emergence of DNA from a series of improbable accidents into a logical consequence of the laws of matter. 
 
-In the MWH framework, the "Thymine Switch" is the definitive proof that the architecture of life is dictated by the inexorable logic of thermodynamic stability and photochemical resilience.
+In the MWH framework, the "Thymine Switch" is the proof that the architecture of life is dictated by the inexorable logic of thermodynamic stability and photochemical resilience.
 ---
 
 
