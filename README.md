@@ -38,7 +38,7 @@ The detailed reports and raw data for Complete Analysis: Why Thymine Dominates D
 
 📂 **Critique: RNA World vs. Matter World Hypothesis (MWH)**
 
-The detailed Analysis: Critique: RNA World vs. Matter World Hypothesis (MWH) can be found in the 📄 [Critique: RNA World vs. Matter World Hypothesis (MWH)](analysis/Critique_RNA_World_vs_Matter_World_Hypothesis_(MWH).md)
+The detailed Critique: RNA World vs. Matter World Hypothesis (MWH) can be found in the 📄 [Critique: RNA World vs. Matter World Hypothesis (MWH)](analysis/Critique_RNA_World_vs_Matter_World_Hypothesis_(MWH).md)
 
 <br>
 <br>
