@@ -481,8 +481,8 @@ The 36× stress test demonstrates that:
 - *Deamer, D. W. (2017).* "The role of lipid membranes in the origin of life." Life, 7(2), 15. 
 
 ### IV. Computational Framework (The MWH Implementation)
-- *Hashemi, S.M.R. (2026).* "Unified Prebiotic DNA Selection Framework (UPDSF) v4.4." Zenodo, DOI: 10.5281/zenodo.21224889. 
----
+
+- Reza Hashemi. (2026). mrhashemi2000/UPDSF_v4.4: Initial release. Zenodo. https://doi.org/10.5281/zenodo.21224889---
 
 ## Appendix
 
@@ -1056,6 +1056,9 @@ The integration of Sutherland's synthesis, Szostak's compartmentalization, and t
 
 5. On Nucleotide Half-Lives (Cleaves):
 - Cleaves, H. (2004). "The half-life of RNA and DNA in the prebiotic environment." Astrobiology, 4(2), 312-320. (Corrected year from 2010 to 2004).
+
+6. On UPDSF_v4.4:
+- Reza Hashemi. (2026). mrhashemi2000/UPDSF_v4.4: Initial release. Zenodo. https://doi.org/10.5281/zenodo.21224889
 
 # Conclusion for the "Matter World Hypothesis" 
 
