@@ -3,10 +3,6 @@
 
 **Date**: August 13, 2026  
 
-**Manuscript**  
-*Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model*  
-(International Journal of Astrobiology – Draft)
-
 # Critique: RNA World vs. Matter World Hypothesis (MWH)
 ## The Deterministic Selection of DNA Architecture
 
