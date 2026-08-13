@@ -97,7 +97,8 @@ In the MWH framework, the "Thymine Switch" is the proof that the architecture of
 6. On UPDSF_v4.4:
 - Reza Hashemi. (2026). mrhashemi2000/UPDSF_v4.4: Initial release. Zenodo. https://doi.org/10.5281/zenodo.21224889
 
-Framework:* Unified Prebiotic DNA Selection Framework (UPDSF v4.4)
+
+#### Framework:* Unified Prebiotic DNA Selection Framework (UPDSF v4.4)
 *Author:* Seyed Mohammad Reza Hashemi (2026)
 *DOI:* `10.5281/zenodo.21224889`
 
