@@ -67,7 +67,33 @@ The 5-methyl group of Thymine is not merely a structural difference but a *funct
 | Outcome* | Stochastic | Deterministic |
 
 
+## 4. The Stability-Reactivity Paradox
+To understand why RNA persisted, we must examine the trade-off between Stability (the ability to persist) and Flexibility (the ability to react).
+
+| Feature | DNA (The Archive) | RNA (The Executor) | Chemical Driver |
+| :--- | :--- | :--- | :--- |
+| Sugar | Deoxyribose (Lacks $2'$-OH) | Ribose (Has $2'$-OH) | $\downarrow$ Hydrolysis rate in DNA |
+| Base | Thymine (Methylated) | Uracil | $\uparrow$ Photostability in DNA |
+| Structure | Rigid Double Helix | Flexible Single-Strand / Complex 3D | $\uparrow$ Catalytic potential in RNA |
+| Half-life | Long (Persistent) | Short (Transient) | Thermodynamic necessity |
+
+### Key Insight:
+If a molecule is too stable, it becomes chemically inert (static). If it is too unstable, it cannot store information. Nature solved this by utilizing both: DNA for the "Hard Drive" and RNA for the "RAM".
+
 ---
+
+## 5. The Strategic Shift: From Archive to Mediator
+In the Concurrent Influx model, the environment acted as a filter. While DNA won the "battle for persistence," RNA found its niche in Dynamic Regulation.
+
+### A. The "Lability" Advantage
+The very instability that made RNA a poor choice for a long-term genome became its greatest strength for cellular signaling. 
+- Rapid Turnover: Because RNA degrades quickly, the cell can "turn off" a genetic command almost instantly by destroying the mRNA.
+- Temporal Control: If mRNA were as stable as DNA, the cell would suffer from "protein congestion," unable to stop producing obsolete proteins.
+
+### B. Catalytic Versatility (Ribozymes)
+The $2'$-hydroxyl group allows RNA to fold into intricate three-dimensional shapes. This enables RNA to act as a Ribozyme (an RNA enzyme), facilitating:
+1.  Splicing of genetic sequences.
+2.  Peptide bond formation (the core of the ribosome is RNA, not protein).
 
 ## Final Verdict
 
