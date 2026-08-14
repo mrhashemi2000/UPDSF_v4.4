@@ -1,7 +1,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21224889-blue)](https://doi.org/10.5281/zenodo.21224889) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 # Expanded_Analysis_14
 
-**Date**: August 13, 2026  
+**Date**: August 13-14, 2026  
 
 # Critique: RNA World vs. Matter World Hypothesis (MWH)
 ## The Deterministic Selection of DNA Architecture
