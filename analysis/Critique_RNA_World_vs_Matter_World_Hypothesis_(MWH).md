@@ -100,6 +100,8 @@ The $2'$-hydroxyl group allows RNA to fold into intricate three-dimensional shap
 The Matter World Hypothesis provides a more robust and scientifically grounded explanation for the origin of genetic archives. It transforms the emergence of DNA from a series of improbable accidents into a logical consequence of the laws of matter. 
 
 In the MWH framework, the "Thymine Switch" is the proof that the architecture of life is dictated by the inexorable logic of thermodynamic stability and photochemical resilience.
+RNA was not deleted; it was repurposed. The Concurrent model demonstrates that the "failure" of RNA as a stable genome was the very prerequisite for its "success" as a biological regulator. The transition was not a replacement of a "primitive" system by a "superior" one, but the emergence of a synergistic duality dictated by the laws of thermodynamics and kinetics.
+
 ---
 
 
