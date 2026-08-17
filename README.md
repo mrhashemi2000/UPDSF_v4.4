@@ -48,21 +48,46 @@ The detailed Critique: RNA World vs. Matter World Hypothesis (MWH) can be found 
 <br>
 <br>
 
-## Reza Hashemi <mrhashemi2000@gmail.com>
-Attachments
-1:31 PM (7 hours ago)
-to publishingethics
+## * * * **Subject: Formal Request for Review of Editorial Record Integrity – Manuscript IJA-2026-0085 (International Journal of Astrobiology)** **D...
+Inbox
+Summarize this email
 
-**Subject: Formal Request for Review of Editorial Record Integrity – Manuscript IJA-2026-0085 (International Journal of Astrobiology)**
+Publishing Ethics and Research Integrity
+Aug 5, 2026, 4:27 PM (12 days ago)
+to me
 
-**Dear Cambridge University Press Publishing Ethics Team,**
+It looks like this message is in English
+Joseph Ganderson (Publishing Ethics and Research Integrity)
+
+#### 5 Aug 2026, 12:57 UTC
+
+Dear Dr Reza Hashemi,
+ 
+Thank you for writing with us to express your concerns. Please be assured that we take such reports seriously, and we will follow up further on this. For reference, your dedicated Cambridge ethics case number is 1784. You can use this in any correspondence with this inbox related to this concern. Otherwise, we handle many related cases, and so we ask for some patience while this is queued for our team to properly review the handling of your manuscript and your concerns.
+ 
+Best regards,
+ 
+Joseph
+Dr. Joseph Ganderson
+Publishing Ethics and Research Integrity (PERI)
+
+Cambridge University Press
+
+
+Reza Hashemi
+
+#### 3 Aug 2026, 10:02 UTC
+
+Subject: Formal Request for Review of Editorial Record Integrity – Manuscript IJA-2026-0085 (International Journal of Astrobiology)
+
+Dear Cambridge University Press Publishing Ethics Team,
 
 I am writing to formally request a review of the integrity and consistency of the official editorial record concerning manuscript IJA-2026-0085.
 
-Manuscript details:  
-ID: IJA-2026-0085  
-Title: Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model  
-Submitted: 9 July 2026  
+Manuscript details: 
+ID: IJA-2026-0085 
+Title: Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model 
+Submitted: 9 July 2026 
 Decision date: 29 July 2026
 
 This is not an appeal against the editorial decision. I fully accept the Editor’s authority to desk-reject a manuscript without external peer review. My concern is strictly limited to the accuracy and internal consistency of the documented editorial process.
@@ -95,14 +120,28 @@ Looking forward to your response.
 
 Yours sincerely,
 
-
-####  Dr Seyed Mohammad Reza Hashemi (Reza Hashemi)
-
-Independent Researcher
-
-ORCID: 0009-0002-0645-5180
-
+Dr Seyed Mohammad Reza Hashemi (Reza Hashemi) 
+Independent Researcher 
+ORCID: 0009-0002-0645-5180 
 mrhashemi2000@gmail.com
+
+
+
+Cambridge University Press & Assessment is the publishing and assessment department of the University of Cambridge. The corporate title of the University is The Chancellor, Masters, and Scholars of the University of Cambridge. Our principal office is at Shaftesbury Road, Cambridge, CB2 8EA, United Kingdom, with registered VAT number GB 823 8476 09. We are a not-for-profit organisation and an exempt charity under the Charities Act 2011.
+
+Disclaimer
+This email is intended solely for the recipient and may contain confidential information. If you have received this email in error, please let us know and then delete the original email and any attachments. Do not use, copy or disclose the contents of this email or any attachment. Any views or opinions in this email are solely those of the author and do not necessarily represent those of Cambridge, unless specifically stated.
+
+Attachment(s)
+تصویر صفحه 2026-07-29 092454.png
+تصویر صفحه 2026-07-29 203326.png
+تصویر صفحه 2026-08-03 095056.png
+Gmail - International Journal of Astrobiology - Decision on IJA-2026-0085.pdf
+تصویر صفحه 2026-07-25 114327.png
+
+This email is a service from Publishing Ethics and Research Integrity. Delivered by Zendesk
+[5KZ40W-7K5KP]
+
 
 <br>
 <br> 
