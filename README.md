@@ -48,6 +48,11 @@ The detailed Critique: RNA World vs. Matter World Hypothesis (MWH) can be found 
 <br>
 <br>
 
+<img width="1366" height="768" alt="تصویر صفحه 2026-08-27 073155" src="https://github.com/user-attachments/assets/efb6fe08-663b-4bc5-bcfe-33b986943595" />
+
+<br>
+<br>
+
 ## * * * **Subject: Formal Request for Review of Editorial Record Integrity – Manuscript IJA-2026-0085 (International Journal of Astrobiology)** **D...
 Inbox
 Summarize this email
