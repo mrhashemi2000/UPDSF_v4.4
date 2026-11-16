@@ -4,6 +4,16 @@ UNIFIED PREBIOTIC DNA SELECTION FRAMEWORK (UPDSF) v4.4 - STRICTLY EMPIRICAL
 WITH LIPID MEMBRANE INTEGRATION
 ================================================================================
 
+AUTHOR: Seyed Mohammad Reza Hashemi (Reza Hashemi) Intelligence-Augmented (IA)
+VERSION: 6.1.1
+License & Copyright
+Copyright ©️ 2026 Seyed Mohammad Reza Hashemi
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
+
+ORCID: 0009-0002-0645-5180
+
+https://doi.org/10.26434/chemrxiv.15012222/v1
+
 DESCRIPTION:
     A high-fidelity simulation engine designed to model the chemical selection 
     of DNA nucleotides under prebiotic conditions. This framework uses ONLY 
